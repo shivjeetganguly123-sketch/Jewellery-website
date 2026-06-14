@@ -1,0 +1,18 @@
+{
+  "name": "unique-stylish-jewellery",
+  "version": "1.0.0",
+  "description": "Unique & Stylish — imitation jewellery website with user accounts and order storage in MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  }
+}

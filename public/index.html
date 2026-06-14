@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unique & Stylish — Imitation Jewellery | Trending Designs</title>
+<meta name="description" content="Unique & Stylish — premium imitation jewellery. Earrings, necklace sets, bangles, rings, bridal sets, anklets, maang tikkas & more. Free shipping above ₹999.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --maroon:#3d0c18;
+    --maroon-deep:#2a0810;
+    --gold:#c9a24b;
+    --gold-soft:#e3c98a;
+    --ivory:#faf5ea;
+    --ink:#2e2228;
+    --emerald:#1e5c4a;
+    --rose:#a8385a;
+    --wa:#1f8a52;
+    --display:'Marcellus',serif;
+    --body:'Mulish',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--body);color:var(--ink);background:var(--ivory);line-height:1.6}
+  img{max-width:100%}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3,.brand{font-family:var(--display);font-weight:400}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+  :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+  /* Announcement bar */
+  .announce{background:var(--maroon-deep);color:var(--gold-soft);text-align:center;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;padding:9px 16px}
+
+  /* Header */
+  header{background:var(--maroon);color:var(--ivory);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(201,162,75,.35)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1200px;margin:0 auto;gap:16px}
+  .brand{font-size:1.55rem;letter-spacing:.06em;color:var(--gold-soft);white-space:nowrap}
+  .brand small{display:block;font-family:var(--body);font-size:.6rem;letter-spacing:.42em;text-transform:uppercase;color:rgba(250,245,234,.7)}
+  .nav-links{display:flex;gap:26px;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase}
+  .nav-links a{padding:6px 0;border-bottom:1px solid transparent;transition:.25s}
+  .nav-links a:hover{color:var(--gold-soft);border-color:var(--gold)}
+  .cart-btn{background:transparent;border:1px solid var(--gold);color:var(--gold-soft);padding:8px 18px;border-radius:999px;font-family:var(--body);font-size:.85rem;letter-spacing:.06em;cursor:pointer;transition:.25s}
+  .cart-btn:hover{background:var(--gold);color:var(--maroon-deep)}
+  .menu-toggle{display:none;background:none;border:1px solid var(--gold);color:var(--gold-soft);border-radius:8px;padding:6px 12px;font-size:1.1rem;cursor:pointer}
+
+  /* Hero */
+  .hero{background:radial-gradient(ellipse at 75% 35%, #5a1626 0%, var(--maroon) 45%, var(--maroon-deep) 100%);color:var(--ivory);overflow:hidden}
+  .hero-inner{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:40px;padding:72px 24px 84px;max-width:1200px;margin:0 auto}
+  .eyebrow{font-size:.75rem;letter-spacing:.38em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:18px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.12;color:var(--ivory)}
+  .hero h1 em{font-style:normal;color:var(--gold-soft)}
+  .hero p{margin:22px 0 32px;max-width:46ch;color:rgba(250,245,234,.85)}
+  .btn-row{display:flex;gap:16px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:13px 32px;border-radius:999px;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;transition:.25s;border:1px solid var(--gold);font-family:var(--body);cursor:pointer}
+  .btn-gold{background:var(--gold);color:var(--maroon-deep)}
+  .btn-gold:hover{background:var(--gold-soft)}
+  .btn-line{color:var(--gold-soft);background:transparent}
+  .btn-line:hover{background:rgba(201,162,75,.15)}
+  .jhumka{display:flex;justify-content:center}
+  .jhumka svg{width:min(330px,80%);filter:drop-shadow(0 18px 40px rgba(0,0,0,.45));animation:sway 6s ease-in-out infinite;transform-origin:top center}
+  @keyframes sway{0%,100%{transform:rotate(-2.5deg)}50%{transform:rotate(2.5deg)}}
+  @media (prefers-reduced-motion: reduce){.jhumka svg,.cat-banner .icon-big{animation:none!important}}
+
+  /* Section headings */
+  section{padding:72px 0}
+  .sec-head{text-align:center;margin-bottom:46px}
+  .sec-head h2{font-size:clamp(1.7rem,3.4vw,2.4rem);color:var(--maroon)}
+  .ornament{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:12px;color:var(--gold)}
+  .ornament::before,.ornament::after{content:"";height:1px;width:64px;background:linear-gradient(90deg,transparent,var(--gold))}
+  .ornament::after{background:linear-gradient(90deg,var(--gold),transparent)}
+
+  /* Categories */
+  .cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+  .cat-card{background:#fff;border:1px solid #ecdfc4;border-radius:14px;padding:30px 18px;text-align:center;transition:.3s;cursor:pointer;position:relative;overflow:hidden}
+  .cat-card::after{content:"Explore →";position:absolute;left:0;right:0;bottom:-30px;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);transition:.3s}
+  .cat-card:hover{transform:translateY(-6px);box-shadow:0 16px 34px rgba(61,12,24,.12);border-color:var(--gold);padding-bottom:42px}
+  .cat-card:hover::after{bottom:14px}
+  .cat-card .icon{font-size:2rem;width:64px;height:64px;margin:0 auto 14px;display:grid;place-items:center;border-radius:50%;background:linear-gradient(145deg,#fdf6e6,#f3e3bd);color:var(--maroon);border:1px solid var(--gold-soft);transition:.3s}
+  .cat-card:hover .icon{transform:scale(1.1) rotate(-6deg)}
+  .cat-card h3{font-size:1.05rem;color:var(--maroon)}
+  .cat-card p{font-size:.8rem;color:#7a6a70;margin-top:6px}
+
+  /* Product cards (reusable) */
+  .prod-band{background:#fff;border-top:1px solid #ecdfc4;border-bottom:1px solid #ecdfc4}
+  .prod-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+  .prod-card{background:var(--ivory);border:1px solid #ecdfc4;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:.3s}
+  .prod-card:hover{box-shadow:0 16px 34px rgba(61,12,24,.16);transform:translateY(-5px);border-color:var(--gold)}
+  .prod-img{height:190px;display:grid;place-items:center;font-size:3.1rem;position:relative;overflow:hidden}
+  .prod-img .emo{transition:.4s}
+  .prod-card:hover .prod-img .emo{transform:scale(1.18) rotate(-5deg)}
+  .prod-img.maroon{background:radial-gradient(circle at 50% 30%,#5a1626,var(--maroon))}
+  .prod-img.has-photo{background:#1a0610;padding:0}
+  .prod-img.has-photo .prod-photo{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .5s ease}
+  .prod-card:hover .prod-img.has-photo .prod-photo{transform:scale(1.08)}
+  .modal-img.has-photo{padding:0;background:#1a0610;overflow:hidden}
+  .modal-img.has-photo img{width:100%;height:100%;object-fit:cover}
+  .prod-img.green{background:radial-gradient(circle at 50% 30%,#2c7a63,var(--emerald))}
+  .prod-img.rose{background:radial-gradient(circle at 50% 30%,#c4536f,var(--rose))}
+  .prod-img.goldbg{background:radial-gradient(circle at 50% 30%,#e0c280,#b08a35)}
+  .tag{position:absolute;top:12px;left:12px;background:var(--gold);color:var(--maroon-deep);font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;padding:4px 10px;border-radius:999px}
+  .prod-body{padding:16px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .prod-body h3{font-size:.98rem;color:var(--maroon)}
+  .prod-body .blurb{font-size:.78rem;color:#7a6a70}
+  .price{font-weight:700;color:var(--ink)}
+  .price s{color:#9b8a90;font-weight:400;margin-left:8px;font-size:.85rem}
+  .card-actions{margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .wa-btn,.detail-btn{border:none;border-radius:999px;padding:9px 6px;font-family:var(--body);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;transition:.25s;text-align:center;font-weight:700}
+  .wa-btn{background:var(--wa);color:#fff;display:inline-flex;align-items:center;justify-content:center;gap:6px}
+  .wa-btn:hover{background:#166b3e}
+  .detail-btn{background:transparent;border:1px solid var(--maroon);color:var(--maroon)}
+  .detail-btn:hover{background:var(--maroon);color:var(--gold-soft)}
+  .add-btn{background:var(--maroon);color:var(--gold-soft);border:none;border-radius:999px;padding:10px;font-family:var(--body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:.25s}
+  .add-btn:hover{background:var(--gold);color:var(--maroon-deep)}
+
+  /* Category page */
+  .cat-banner{background:radial-gradient(ellipse at 70% 30%, #5a1626 0%, var(--maroon) 50%, var(--maroon-deep) 100%);color:var(--ivory);padding:56px 24px 64px;text-align:center;position:relative;overflow:hidden}
+  .cat-banner::before{content:"✦ ✦ ✦";position:absolute;top:18px;left:50%;transform:translateX(-50%);color:rgba(201,162,75,.45);letter-spacing:18px;font-size:.7rem}
+  .cat-banner .icon-big{font-size:3.4rem;display:inline-block;animation:floaty 4s ease-in-out infinite}
+  @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  .cat-banner h1{font-size:clamp(2rem,4.5vw,3rem);color:var(--gold-soft);margin:10px 0 6px}
+  .cat-banner .sub{max-width:62ch;margin:10px auto 0;color:rgba(250,245,234,.85);font-size:.95rem}
+  .breadcrumb{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(250,245,234,.65);margin-bottom:14px}
+  .breadcrumb a{color:var(--gold-soft);border-bottom:1px solid rgba(201,162,75,.4)}
+  .breadcrumb a:hover{color:#fff}
+  .back-btn{display:inline-flex;align-items:center;gap:8px;margin-top:24px;background:transparent;border:1px solid var(--gold);color:var(--gold-soft);border-radius:999px;padding:10px 24px;font-family:var(--body);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:.25s}
+  .back-btn:hover{background:var(--gold);color:var(--maroon-deep)}
+  .count-pill{display:inline-block;margin-top:16px;background:rgba(201,162,75,.16);border:1px solid rgba(201,162,75,.5);color:var(--gold-soft);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;padding:5px 16px;border-radius:999px}
+
+  /* Our Story page */
+  .story-prose p{font-size:1.02rem;line-height:1.9;color:#4a3a40;margin-bottom:20px;text-align:justify}
+  .story-prose p:first-child{font-size:1.12rem}
+  .story-prose strong{color:var(--maroon);font-family:var(--display);font-weight:400}
+  .story-values{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px}
+  .story-values .sv{background:#fff;border:1px solid #ecdfc4;border-radius:14px;padding:26px 18px;text-align:center;transition:.3s}
+  .story-values .sv:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(61,12,24,.12);border-color:var(--gold)}
+  .story-values .sv-icon{font-size:2rem;width:60px;height:60px;margin:0 auto 12px;display:grid;place-items:center;border-radius:50%;background:linear-gradient(145deg,#fdf6e6,#f3e3bd);border:1px solid var(--gold-soft)}
+  .story-values .sv h3{color:var(--maroon);font-size:1.05rem;margin-bottom:6px}
+  .story-values .sv p{font-size:.85rem;color:#7a6a70}
+  @media (max-width:680px){.story-values{grid-template-columns:1fr}.story-prose p{text-align:left}}
+
+  /* Returns / policy page */
+  .pol-block{margin-bottom:24px}
+  .pol-block h3{color:var(--maroon);font-size:1.18rem;margin-bottom:6px}
+  .pol-block p{font-size:.98rem;line-height:1.8;color:#4a3a40}
+  .pol-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:28px 0}
+  .pol-card{border-radius:14px;padding:22px;border:1px solid #ecdfc4;background:#fff}
+  .pol-card h4{font-size:1rem;margin-bottom:12px}
+  .pol-card.ok{border-color:rgba(30,92,74,.4);background:#f3f9f6}
+  .pol-card.ok h4{color:var(--emerald)}
+  .pol-card.no{border-color:rgba(168,56,90,.35);background:#fbf3f6}
+  .pol-card.no h4{color:var(--rose)}
+  .pol-card ul{padding-left:4px;list-style:none}
+  .pol-card li{font-size:.9rem;color:#5d4d54;margin-bottom:8px;padding-left:20px;position:relative}
+  .pol-card.ok li::before{content:"✓";position:absolute;left:0;color:var(--emerald);font-weight:700}
+  .pol-card.no li::before{content:"✕";position:absolute;left:0;color:var(--rose);font-weight:700}
+  .pol-badges{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;background:linear-gradient(135deg,var(--maroon-deep),var(--maroon));border-radius:14px;padding:24px;margin:30px 0}
+  .pol-badges span{color:var(--gold-soft);font-size:.85rem;letter-spacing:.04em;border:1px solid rgba(201,162,75,.4);border-radius:999px;padding:7px 16px}
+  .pol-note{font-size:.88rem;color:#7a6a70;font-style:italic;text-align:center;border-top:1px dashed var(--gold-soft);padding-top:18px}
+  .pol-note strong{color:var(--maroon);font-style:normal}
+  .care-list{list-style:none;padding-left:4px;margin-top:10px}
+  .care-list li{font-size:.94rem;color:#5d4d54;margin-bottom:8px;padding-left:22px;position:relative}
+  .care-list li::before{content:"✦";position:absolute;left:0;color:var(--gold)}
+  @media (max-width:680px){.pol-grid{grid-template-columns:1fr}}
+
+  /* Promises */
+  .promise{background:var(--maroon);color:var(--ivory)}
+  .promise-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;text-align:center}
+  .promise-grid .p-item .icon{font-size:1.8rem;color:var(--gold-soft);margin-bottom:10px}
+  .promise-grid h3{color:var(--gold-soft);font-size:1.05rem;margin-bottom:6px}
+  .promise-grid p{font-size:.85rem;color:rgba(250,245,234,.8)}
+
+  /* Testimonials */
+  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .testi{background:#fff;border:1px solid #ecdfc4;border-radius:14px;padding:26px}
+  .stars{color:var(--gold);letter-spacing:3px;margin-bottom:10px}
+  .testi p{font-size:.92rem}
+  .testi .who{margin-top:14px;font-weight:700;color:var(--maroon);font-size:.85rem}
+
+  /* Newsletter */
+  .news{background:linear-gradient(135deg,var(--maroon-deep),var(--maroon));color:var(--ivory);text-align:center;border-radius:18px;padding:56px 24px;margin:0 24px}
+  .news h2{color:var(--gold-soft);font-size:clamp(1.5rem,3vw,2rem)}
+  .news p{margin:12px auto 26px;max-width:52ch;color:rgba(250,245,234,.85)}
+  .news-form{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .news-form input{padding:13px 20px;border-radius:999px;border:1px solid var(--gold);background:rgba(250,245,234,.08);color:var(--ivory);min-width:260px;font-family:var(--body)}
+  .news-form input::placeholder{color:rgba(250,245,234,.55)}
+  #news-msg{margin-top:14px;color:var(--gold-soft);font-size:.9rem;min-height:1.2em}
+
+  /* Footer */
+  footer{background:var(--maroon-deep);color:rgba(250,245,234,.78);padding:56px 0 28px;margin-top:72px}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:36px}
+  footer h4{color:var(--gold-soft);font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;margin-bottom:16px}
+  footer li{list-style:none;margin-bottom:10px;font-size:.88rem}
+  footer li a:hover{color:var(--gold-soft)}
+  .foot-brand{font-family:var(--display);font-size:1.5rem;color:var(--gold-soft)}
+  .foot-bottom{border-top:1px solid rgba(201,162,75,.25);margin-top:42px;padding-top:20px;text-align:center;font-size:.8rem;color:rgba(250,245,234,.5)}
+
+  /* Toast */
+  .toast{position:fixed;bottom:24px;left:24px;transform:translateY(160%);opacity:0;visibility:hidden;background:var(--maroon);color:var(--gold-soft);padding:13px 28px;border-radius:999px;border:1px solid var(--gold);font-size:.9rem;transition:transform .35s,opacity .35s,visibility .35s;z-index:99}
+  .toast.show{transform:translateY(0);opacity:1;visibility:visible}
+
+  /* Details modal */
+  .modal-overlay{position:fixed;inset:0;background:rgba(42,8,16,.65);backdrop-filter:blur(3px);z-index:120;display:none;align-items:center;justify-content:center;padding:20px}
+  .modal-overlay.open{display:flex}
+  .modal{background:var(--ivory);border:1px solid var(--gold);border-radius:18px;max-width:760px;width:100%;max-height:88vh;overflow-y:auto;display:grid;grid-template-columns:1fr 1.1fr;overflow:hidden;animation:pop .3s ease}
+  @keyframes pop{from{transform:scale(.94);opacity:0}to{transform:scale(1);opacity:1}}
+  .modal-img{min-height:300px;display:grid;place-items:center;font-size:5.5rem}
+  .modal-info{padding:30px 28px;position:relative}
+  .modal-close{position:absolute;top:14px;right:14px;background:none;border:1px solid var(--maroon);color:var(--maroon);border-radius:50%;width:32px;height:32px;cursor:pointer;font-size:.95rem}
+  .modal-close:hover{background:var(--maroon);color:var(--gold-soft)}
+  .modal-info .crumb{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+  .modal-info h2{color:var(--maroon);font-size:1.5rem;margin-bottom:8px}
+  .modal-info .price{font-size:1.2rem;margin:10px 0}
+  .modal-info p{font-size:.9rem;color:#5d4d54}
+  .spec{margin:16px 0;border-top:1px dashed var(--gold-soft);padding-top:14px;font-size:.84rem}
+  .spec li{list-style:none;margin-bottom:6px}
+  .spec li::before{content:"✦ ";color:var(--gold)}
+  .modal-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+
+  /* Chatbot */
+  .chat-fab{position:fixed;bottom:24px;right:24px;width:60px;height:60px;border-radius:50%;background:var(--maroon);color:var(--gold-soft);border:2px solid var(--gold);font-size:1.5rem;cursor:pointer;z-index:100;box-shadow:0 10px 26px rgba(42,8,16,.4);transition:.25s;display:grid;place-items:center}
+  .chat-fab:hover{transform:scale(1.08);background:var(--gold);color:var(--maroon-deep)}
+  .chat-panel{position:fixed;bottom:96px;right:24px;width:min(360px,calc(100vw - 32px));height:min(480px,70vh);background:#fff;border:1px solid var(--gold);border-radius:18px;z-index:100;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 24px 60px rgba(42,8,16,.35);opacity:0;pointer-events:none;transform:translateY(16px);transition:.3s}
+  .chat-panel.open{opacity:1;pointer-events:auto;transform:translateY(0)}
+  .chat-head{background:linear-gradient(135deg,var(--maroon-deep),var(--maroon));color:var(--gold-soft);padding:16px 18px;display:flex;align-items:center;gap:12px}
+  .chat-head .avatar{width:38px;height:38px;border-radius:50%;background:var(--gold);color:var(--maroon-deep);display:grid;place-items:center;font-size:1.2rem}
+  .chat-head h3{font-size:1rem;color:var(--gold-soft)}
+  .chat-head p{font-size:.72rem;color:rgba(250,245,234,.75)}
+  .chat-head .online{display:inline-block;width:8px;height:8px;border-radius:50%;background:#5fd08a;margin-right:5px}
+  .chat-close{margin-left:auto;background:none;border:none;color:var(--gold-soft);font-size:1.2rem;cursor:pointer}
+  .chat-body{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px;background:var(--ivory)}
+  .msg{max-width:82%;padding:10px 14px;border-radius:14px;font-size:.88rem;line-height:1.45;white-space:pre-line}
+  .msg.bot{background:#fff;border:1px solid #ecdfc4;border-bottom-left-radius:4px;align-self:flex-start}
+  .msg.user{background:var(--maroon);color:var(--ivory);border-bottom-right-radius:4px;align-self:flex-end}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;align-self:flex-start}
+  .chip{background:#fff;border:1px solid var(--gold);color:var(--maroon);border-radius:999px;padding:6px 14px;font-size:.78rem;cursor:pointer;font-family:var(--body);transition:.2s}
+  .chip:hover{background:var(--gold);color:var(--maroon-deep)}
+  .typing{align-self:flex-start;background:#fff;border:1px solid #ecdfc4;border-radius:14px;border-bottom-left-radius:4px;padding:12px 16px;display:flex;gap:5px}
+  .typing span{width:7px;height:7px;border-radius:50%;background:var(--gold);animation:blink 1.2s infinite}
+  .typing span:nth-child(2){animation-delay:.2s}
+  .typing span:nth-child(3){animation-delay:.4s}
+  @keyframes blink{0%,80%,100%{opacity:.25}40%{opacity:1}}
+  .chat-input{display:flex;gap:8px;padding:12px;background:#fff;border-top:1px solid #ecdfc4}
+  .chat-input input{flex:1;border:1px solid #ecdfc4;border-radius:999px;padding:10px 16px;font-family:var(--body);font-size:.88rem;background:var(--ivory)}
+  .chat-input input:focus{outline:none;border-color:var(--gold)}
+  .chat-input button{background:var(--maroon);color:var(--gold-soft);border:none;border-radius:50%;width:42px;height:42px;font-size:1rem;cursor:pointer;transition:.25s}
+  .chat-input button:hover{background:var(--gold);color:var(--maroon-deep)}
+
+  /* Cart drawer & checkout */
+  .cart-overlay{position:fixed;inset:0;background:rgba(42,8,16,.55);backdrop-filter:blur(2px);z-index:105;opacity:0;pointer-events:none;transition:.3s}
+  .cart-overlay.open{opacity:1;pointer-events:auto}
+  .cart-drawer{position:fixed;top:0;right:0;width:min(420px,100vw);height:100vh;height:100dvh;background:var(--ivory);z-index:110;display:flex;flex-direction:column;transform:translateX(105%);transition:.35s;box-shadow:-20px 0 50px rgba(42,8,16,.3);border-left:1px solid var(--gold)}
+  .cart-drawer.open{transform:translateX(0)}
+  .drawer-head{background:linear-gradient(135deg,var(--maroon-deep),var(--maroon));color:var(--gold-soft);padding:18px 20px;display:flex;align-items:center;justify-content:space-between}
+  .drawer-head h3{font-size:1.15rem;color:var(--gold-soft)}
+  .drawer-head button{background:none;border:none;color:var(--gold-soft);font-size:1.2rem;cursor:pointer}
+  .drawer-body{flex:1;overflow-y:auto;padding:18px 20px}
+  .drawer-foot{border-top:1px solid #ecdfc4;background:#fff;padding:16px 20px}
+  .cart-item{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid #ecdfc4;border-radius:12px;padding:10px;margin-bottom:12px}
+  .ci-img{width:56px;height:56px;border-radius:10px;display:grid;place-items:center;font-size:1.6rem;flex-shrink:0}
+  .ci-info{flex:1;min-width:0}
+  .ci-info h4{font-size:.86rem;color:var(--maroon);font-family:var(--body);font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .ci-info .ci-price{font-size:.82rem;color:#7a6a70}
+  .qty{display:flex;align-items:center;gap:8px}
+  .qty button{width:26px;height:26px;border-radius:50%;border:1px solid var(--gold);background:#fff;color:var(--maroon);cursor:pointer;font-size:.95rem;line-height:1}
+  .qty button:hover{background:var(--gold)}
+  .qty span{min-width:18px;text-align:center;font-weight:700;font-size:.88rem}
+  .ci-remove{background:none;border:none;color:#b05c5c;cursor:pointer;font-size:1rem;padding:4px}
+  .totals{font-size:.9rem}
+  .totals .row{display:flex;justify-content:space-between;margin-bottom:6px}
+  .totals .grand{font-weight:700;font-size:1.05rem;color:var(--maroon);border-top:1px dashed var(--gold-soft);padding-top:8px;margin-top:8px}
+  .free-ship-note{font-size:.76rem;color:var(--emerald);margin:6px 0}
+  .checkout-btn{width:100%;margin-top:12px}
+  .empty-cart{text-align:center;padding:50px 10px;color:#7a6a70}
+  .empty-cart .big{font-size:2.6rem;margin-bottom:10px}
+  .ck-form label{display:block;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--maroon);margin:14px 0 6px;font-weight:700}
+  .ck-form input,.ck-form textarea{width:100%;border:1px solid #ecdfc4;border-radius:10px;padding:11px 14px;font-family:var(--body);font-size:.9rem;background:#fff}
+  .ck-form input:focus,.ck-form textarea:focus{outline:none;border-color:var(--gold)}
+  .ck-form .err{border-color:#c0392b!important}
+  .pay-opt{display:flex;align-items:center;gap:12px;border:1px solid #ecdfc4;border-radius:12px;padding:12px 14px;margin-bottom:10px;cursor:pointer;background:#fff;transition:.2s}
+  .pay-opt:hover{border-color:var(--gold)}
+  .pay-opt.selected{border-color:var(--gold);background:#fdf6e6;box-shadow:0 4px 14px rgba(201,162,75,.18)}
+  .pay-opt input{accent-color:var(--maroon)}
+  .pay-logo{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;font-size:1.15rem;font-weight:800;color:#fff;flex-shrink:0;font-family:var(--body)}
+  .pay-logo.gpay{background:linear-gradient(135deg,#4285F4,#34A853)}
+  .pay-logo.paytm{background:linear-gradient(135deg,#00BAF2,#002E6E)}
+  .pay-logo.upi{background:linear-gradient(135deg,#6c4ab6,#3d2c8d)}
+  .pay-logo.cod{background:linear-gradient(135deg,#1f8a52,#0f5c34)}
+  .pay-opt .pay-name{font-weight:700;font-size:.9rem;color:var(--ink)}
+  .pay-opt .pay-sub{font-size:.74rem;color:#7a6a70}
+  .back-link{background:none;border:none;color:var(--maroon);cursor:pointer;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;font-family:var(--body);padding:0;margin-bottom:10px}
+  .back-link:hover{color:var(--gold)}
+  .pay-wait{text-align:center;padding:14px 0}
+  .pay-wait .amt{font-family:var(--display);font-size:2rem;color:var(--maroon);margin:8px 0}
+  .upi-link-btn{display:block;width:100%;text-align:center;margin:14px 0 10px}
+  .confirm{text-align:center;padding:34px 8px}
+  .confirm .tick{width:70px;height:70px;margin:0 auto 16px;border-radius:50%;background:var(--emerald);color:#fff;display:grid;place-items:center;font-size:2rem;animation:pop .4s ease}
+  .confirm h3{color:var(--maroon);font-size:1.35rem;margin-bottom:6px}
+  .confirm .oid{display:inline-block;background:#fdf6e6;border:1px dashed var(--gold);border-radius:999px;padding:6px 18px;font-weight:700;color:var(--maroon);margin:10px 0;font-size:.9rem}
+  .confirm p{font-size:.86rem;color:#5d4d54}
+  .mini-summary{text-align:left;background:#fff;border:1px solid #ecdfc4;border-radius:12px;padding:14px;margin:16px 0;font-size:.84rem}
+  .mini-summary .row{display:flex;justify-content:space-between;margin-bottom:5px}
+
+  /* Auth (account) modal */
+  .auth-modal{background:var(--ivory);border:1px solid var(--gold);border-radius:18px;max-width:420px;width:100%;max-height:88vh;overflow-y:auto;padding:28px;position:relative;animation:pop .3s ease}
+  .auth-tabs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--gold);border-radius:999px;overflow:hidden;margin:18px 0}
+  .auth-tab{padding:10px;background:#fff;border:none;font-family:var(--body);font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;color:var(--maroon);font-weight:700}
+  .auth-tab.active{background:var(--maroon);color:var(--gold-soft)}
+  .auth-modal h2{color:var(--maroon);font-size:1.4rem;text-align:center}
+  .auth-modal .ck-form label{margin-top:12px}
+  .auth-msg{font-size:.84rem;margin-top:12px;min-height:1.2em;text-align:center}
+  .auth-msg.ok{color:var(--emerald)}
+  .auth-msg.bad{color:#c0392b}
+  .acct-row{display:flex;justify-content:space-between;align-items:center;background:#fff;border:1px solid #ecdfc4;border-radius:12px;padding:12px 14px;margin-bottom:10px;font-size:.86rem}
+  .order-pill{font-size:.7rem;background:#fdf6e6;border:1px solid var(--gold);border-radius:999px;padding:2px 10px;color:var(--maroon);font-weight:700}
+  .server-note{font-size:.74rem;color:#7a6a70;text-align:center;margin-top:12px}
+
+  /* 3D animations */
+  #hero3d{width:100%;height:400px;cursor:grab}
+  #hero3d canvas{display:block;width:100%!important;height:100%!important}
+  #heroFallback{display:flex;justify-content:center;width:100%}
+  .prod-card{position:relative}
+  .prod-card,.cat-card,.testi{transform-style:preserve-3d;will-change:transform}
+  .tilting{transition:transform .08s linear!important;z-index:5}
+  .tilting::before{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(255,238,190,.4),transparent 58%);pointer-events:none;z-index:3}
+  .reveal{opacity:0;transform:perspective(900px) rotateX(12deg) translateY(36px) scale(.97)}
+  .reveal.in{opacity:1;transform:perspective(900px) rotateX(0) translateY(0) scale(1);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.3,1)}
+  .reveal.in:hover{transition:transform .3s, box-shadow .3s}
+  .sec-head h2{background:linear-gradient(110deg,var(--maroon) 35%,var(--gold) 50%,var(--maroon) 65%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shimmer 5s linear infinite}
+  .cat-banner h1{background:linear-gradient(110deg,var(--gold-soft) 35%,#fff6dd 50%,var(--gold-soft) 65%);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shimmer 5s linear infinite}
+  @keyframes shimmer{0%{background-position:120% 0}100%{background-position:-120% 0}}
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1;transform:none}
+    .sec-head h2,.cat-banner h1{animation:none}
+  }
+
+  /* Responsive */
+  @media (max-width:960px){
+    .cat-grid,.prod-grid{grid-template-columns:repeat(2,1fr)}
+    .promise-grid{grid-template-columns:repeat(2,1fr)}
+    .testi-grid{grid-template-columns:1fr}
+    .foot-grid{grid-template-columns:repeat(2,1fr)}
+    .hero-inner{grid-template-columns:1fr;text-align:center}
+    .hero p{margin-inline:auto}
+    .btn-row{justify-content:center}
+    .modal{grid-template-columns:1fr;max-height:90vh}
+    .modal-img{min-height:200px;font-size:4rem}
+    .nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:var(--maroon-deep);flex-direction:column;gap:0;padding:10px 24px 18px;border-bottom:1px solid var(--gold)}
+    .nav-links.open{display:flex}
+    .nav-links a{padding:12px 0;border-bottom:1px solid rgba(201,162,75,.15)}
+    .menu-toggle{display:block}
+  }
+  @media (max-width:560px){
+    .cat-grid,.prod-grid,.promise-grid,.foot-grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+
+<div class="announce">Free shipping above ₹999 &nbsp;✦&nbsp; Get 10% off on orders above ₹2,499 — code <strong>STYLE10</strong></div>
+
+<header>
+  <div class="nav">
+    <a href="#/" class="brand" id="brandLink">Unique &amp; Stylish<small>Imitation Jewellery</small></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#categories" data-anchor="categories">Categories</a>
+      <a href="#bestsellers" data-anchor="bestsellers">Bestsellers</a>
+      <a href="#/bridal-sets">Bridal</a>
+      <a href="#reviews" data-anchor="reviews">Reviews</a>
+      <a href="#contact" data-anchor="contact">Contact</a>
+    </nav>
+    <div style="display:flex;gap:10px;align-items:center">
+      <button class="cart-btn" id="acctBtn">👤 Login</button>
+      <button class="cart-btn" id="cartBtn">🛍 Cart (<span id="cartCount">0</span>)</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ==================== HOME VIEW ==================== -->
+<main id="homeView">
+
+<section class="hero" style="padding:0">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">Handcrafted · Anti-tarnish · Skin friendly</div>
+      <h1>Jewellery that looks <em>royal</em>, priced for <em>every day</em>.</h1>
+      <p>From temple-style jhumkas and kundan chokers to American-diamond sparkle — Unique &amp; Stylish brings you premium imitation jewellery inspired by India's finest traditions, crafted to be your everyday heirloom.</p>
+      <div class="btn-row">
+        <a href="#bestsellers" class="btn btn-gold">Shop Bestsellers</a>
+        <a href="#categories" class="btn btn-line">Browse Categories</a>
+      </div>
+    </div>
+    <div class="jhumka" aria-hidden="true">
+      <div id="hero3d"></div>
+      <div id="heroFallback" style="display:none">
+      <svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#e9d398"/><stop offset=".5" stop-color="#c9a24b"/><stop offset="1" stop-color="#9d7a2c"/>
+          </linearGradient>
+        </defs>
+        <circle cx="100" cy="28" r="14" fill="none" stroke="url(#g1)" stroke-width="5"/>
+        <circle cx="100" cy="62" r="20" fill="url(#g1)"/>
+        <circle cx="100" cy="62" r="8" fill="#7a1230"/>
+        <path d="M100 82 L100 100" stroke="url(#g1)" stroke-width="5"/>
+        <path d="M40 170 Q40 100 100 100 Q160 100 160 170 Q160 200 100 200 Q40 200 40 170 Z" fill="url(#g1)"/>
+        <path d="M55 168 Q55 115 100 115 Q145 115 145 168" fill="none" stroke="#7a1230" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="100" cy="155" r="10" fill="#1e5c4a"/>
+        <g fill="url(#g1)">
+          <circle cx="55" cy="205" r="6"/><circle cx="77" cy="212" r="6"/><circle cx="100" cy="215" r="6"/><circle cx="123" cy="212" r="6"/><circle cx="145" cy="205" r="6"/>
+        </g>
+        <g stroke="url(#g1)" stroke-width="3">
+          <line x1="55" y1="211" x2="55" y2="232"/><line x1="77" y1="218" x2="77" y2="242"/><line x1="100" y1="221" x2="100" y2="250"/><line x1="123" y1="218" x2="123" y2="242"/><line x1="145" y1="211" x2="145" y2="232"/>
+        </g>
+        <g fill="#f3e7c8">
+          <circle cx="55" cy="240" r="7"/><circle cx="77" cy="250" r="7"/><circle cx="100" cy="258" r="7"/><circle cx="123" cy="250" r="7"/><circle cx="145" cy="240" r="7"/>
+        </g>
+      </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="categories">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Shop by Category</h2>
+      <div class="ornament">✦</div>
+    </div>
+    <div class="cat-grid" id="catGrid"><!-- rendered by JS --></div>
+  </div>
+</section>
+
+<section id="bestsellers" class="prod-band">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Bestsellers This Week</h2>
+      <div class="ornament">✦</div>
+    </div>
+    <div class="prod-grid" id="bestGrid"><!-- rendered by JS --></div>
+  </div>
+</section>
+
+<section class="promise">
+  <div class="wrap">
+    <div class="promise-grid">
+      <div class="p-item"><div class="icon">🚚</div><h3>Free Shipping</h3><p>On all orders above ₹999, across India.</p></div>
+      <div class="p-item"><div class="icon">↩️</div><h3>Easy Returns</h3><p>7-day hassle-free returns &amp; exchanges.</p></div>
+      <div class="p-item"><div class="icon">🛡️</div><h3>6-Month Warranty</h3><p>Anti-tarnish plating, guaranteed quality.</p></div>
+      <div class="p-item"><div class="icon">🌿</div><h3>Skin Friendly</h3><p>Nickel-safe &amp; hypoallergenic finishes.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Loved by 50,000+ Customers</h2>
+      <div class="ornament">✦</div>
+    </div>
+    <div class="testi-grid">
+      <div class="testi">
+        <div class="stars">★★★★★</div>
+        <p>"The temple jhumkas look exactly like real gold! Everyone at my cousin's wedding asked where I bought them. Amazing quality for the price."</p>
+        <div class="who">— Priya S., Pune</div>
+      </div>
+      <div class="testi">
+        <div class="stars">★★★★★</div>
+        <p>"Ordered the kundan choker set for Diwali. The packaging was beautiful and delivery was super fast. No skin irritation even after wearing all day."</p>
+        <div class="who">— Anjali K., Mumbai</div>
+      </div>
+      <div class="testi">
+        <div class="stars">★★★★★</div>
+        <p>"Bought the full bridal set for my wedding — saved so much compared to gold, and the photos came out stunning. Truly unique and stylish!"</p>
+        <div class="who">— Sneha R., Hyderabad</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="news" id="join">
+    <h2>Join the Unique &amp; Stylish Club</h2>
+    <p>Get all the latest collection launches, styling tips and members-only offers straight to your inbox.</p>
+    <form class="news-form" id="newsForm">
+      <input type="email" id="newsEmail" placeholder="Enter your email" required aria-label="Email address">
+      <button type="submit" class="btn btn-gold">Subscribe</button>
+    </form>
+    <div id="news-msg" role="status"></div>
+  </div>
+</section>
+
+</main>
+
+<!-- ==================== CATEGORY VIEW (rendered by router) ==================== -->
+<main id="categoryView" style="display:none"></main>
+
+<footer id="contact">
+  <div class="wrap foot-grid">
+    <div>
+      <div class="foot-brand">Unique &amp; Stylish</div>
+      <p style="font-size:.88rem;margin-top:12px;max-width:34ch">Premium imitation jewellery inspired by India's timeless craftsmanship — made for every occasion, every budget.</p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <ul id="footCats"><!-- rendered by JS --></ul>
+    </div>
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#/our-story">Our Story</a></li>
+        <li><a href="#/returns-exchanges">Returns &amp; Exchanges</a></li>
+        <li><a href="#/warranty">Warranty Information</a></li>
+        <li><a href="#/privacy-policy">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact Us</h4>
+      <ul>
+        <li>Mon – Sat, 10 AM – 7 PM</li>
+        <li><a href="tel:+918904411046">+91 89044 11046</a></li>
+        <li><a href="mailto:hello@uniqueandstylish.in">hello@uniqueandstylish.in</a></li>
+        <li>Pune, Maharashtra, India</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">© 2026 Unique &amp; Stylish. All rights reserved. Crafted with ❤️ in India.</div>
+</footer>
+
+<!-- Cart drawer -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+  <div class="drawer-head">
+    <h3 id="drawerTitle">Your Cart</h3>
+    <button id="drawerClose" aria-label="Close cart">✕</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+  <div class="drawer-foot" id="drawerFoot"></div>
+</aside>
+
+<!-- Product details modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" id="modalBox"></div>
+</div>
+
+<!-- Account / Auth modal -->
+<div class="modal-overlay" id="authOverlay">
+  <div class="auth-modal" id="authBox"></div>
+</div>
+
+<!-- Chatbot -->
+<button class="chat-fab" id="chatFab" aria-label="Chat with us">💬</button>
+<div class="chat-panel" id="chatPanel" role="dialog" aria-label="Style Assistant chat">
+  <div class="chat-head">
+    <div class="avatar">💎</div>
+    <div>
+      <h3>Style Assistant</h3>
+      <p><span class="online"></span>Online — typically replies instantly</p>
+    </div>
+    <button class="chat-close" id="chatClose" aria-label="Close chat">✕</button>
+  </div>
+  <div class="chat-body" id="chatBody"></div>
+  <form class="chat-input" id="chatForm">
+    <input type="text" id="chatText" placeholder="Ask about shipping, offers, products…" autocomplete="off" aria-label="Type your message">
+    <button type="submit" aria-label="Send">➤</button>
+  </form>
+</div>
+
+<div class="toast" id="toast">Added to cart ✓</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+/* ==========================================================
+   DATA — single source of truth for all 8 categories
+   product: [name, price, mrp, color, emoji, tag?]
+   ========================================================== */
+const WHATSAPP_NUMBER = '918904411046'; // <-- replace with your WhatsApp number (country code + number, no +)
+
+const CATEGORIES = {
+  'earrings': {
+    title: 'Earrings', icon: '💧',
+    card: 'Jhumkas, chandbalis, studs & ear cuffs',
+    desc: 'From temple-style jhumkas to everyday studs — gold-plated, anti-tarnish earrings with faux kundan, kemp stones and pearls for every occasion.',
+    products: [
+      ['Jhumka Earrings', 749, 1299, 'maroon', '💧', 'Bestseller', 'images/Jhumka.jpg'],
+      ['Chandbali Earrings', 849, 1399, 'green', '🌙', '', 'images/Chandbali_earrings.jpg'],
+      ['Pearl Earrings', 549, 899, 'rose', '🤍', '', 'images/pearl_earrings.jpg'],
+      ['Temple Earrings', 899, 1499, 'goldbg', '🛕', '', 'images/temple_earrings.jpg'],
+      ['Kundan Earrings', 799, 1299, 'maroon', '💎', 'New', 'images/Kundan_earrings.jpg'],
+      ['Oxidized Earrings', 449, 749, 'green', '🌑', '', 'images/Oxidized_silver_jhumka_earrings.jpg'],
+      ['Stud Earrings', 349, 599, 'rose', '✨', '', 'images/stud_earrings.jpg'],
+      ['Drop Earrings', 599, 999, 'goldbg', '💧', '', 'images/Drop_Earrings.jpg'],
+      ['Hoop Earrings', 499, 849, 'maroon', '⭕', '', 'images/Hoop_Earrings.jpg'],
+      ['Bridal Earrings', 1299, 1999, 'green', '👰', 'Bridal', 'images/bridal_earrings.jpg']
+    ]
+  },
+  'necklace-sets': {
+    title: 'Necklace Sets', icon: '📿',
+    card: 'Chokers, long sets & pendant sets',
+    desc: 'Statement chokers, regal long harams and elegant pendant sets — complete with matching earrings, crafted for weddings, festives and work wear alike.',
+    products: [
+      ['Kundan Choker Set', 1899, 2999, 'green', '📿', 'Bestseller', 'images/Kundan_bridal_elegance.jpg'],
+      ['Temple Long Haram Set', 2199, 3499, 'maroon', '🛕', '', 'images/Temple_Long_Haram_Set.jpg'],
+      ['Pearl Necklace Set', 1299, 1999, 'rose', '🤍', '', 'images/Pearl_Necklace.jpg'],
+      ['Antique Pendant Set', 999, 1599, 'goldbg', '🏺', '', 'images/Antique_Pendant_Set.jpg'],
+      ['CZ Necklace Set', 1499, 2399, 'maroon', '💎', 'New', 'images/CZ_Necklace_Set.jpg'],
+      ['Rani Haar Set', 2499, 3999, 'green', '👑', '', 'images/Rani_Haar_Set.jpg'],
+      ['Meenakari Necklace Set', 1699, 2699, 'rose', '🎨', '', 'images/Meenakari_Necklace_Set.jpg'],
+      ['Oxidized Necklace Set', 799, 1299, 'goldbg', '🌑', '', 'images/Oxidized_Necklace_Set.jpg'],
+      ['Layered Coin Necklace', 1099, 1799, 'maroon', '🪙', '', 'images/Layered_Coin_Necklace.jpg'],
+      ['Bridal Choker Set', 2899, 4499, 'green', '👰', 'Bridal', 'images/Bridal_Choker_Set.jpg']
+    ]
+  },
+  'bangles-bracelets': {
+    title: 'Bangles & Bracelets', icon: '⭕',
+    card: 'Antique kadas to CZ bracelets',
+    desc: 'Heirloom-style antique bangles, nakshi kadas and sparkling CZ bracelets — stackable, adjustable and made to turn every wrist into a statement.',
+    products: [
+      ['Antique Temple Bangles (Set of 4)', 999, 1599, 'goldbg', '⭕', 'Bestseller', 'images/Antique_Temple_Bangles__Set_of_4_.jpg'],
+      ['Kundan Kada', 899, 1499, 'maroon', '💎', '', 'images/Kundan_Kada.jpg'],
+      ['CZ Tennis Bracelet', 749, 1199, 'rose', '✨', '', 'images/CZ_Tennis_Bracelet.jpg'],
+      ['Pearl Bangles (Pair)', 649, 1099, 'green', '🤍', '', 'images/Pearl_Bangles__Pair_.jpg'],
+      ['Meenakari Bangles (Set of 2)', 849, 1399, 'maroon', '🎨', 'New', 'images/Meenakari_Bangles__Set_of_2_.jpg'],
+      ['Oxidized Kada', 549, 899, 'goldbg', '🌑', '', 'images/Oxidized_Kada.jpg'],
+      ['Gold-Plated Bangle Set (Set of 6)', 1199, 1899, 'rose', '🟡', '', 'images/Gold-Plated_Bangle_Set__Set_of_6_.jpg'],
+      ['Stone Studded Kada', 949, 1549, 'green', '💠', '', 'images/Stone_Studded_Kada.jpg'],
+      ['Silk Thread Bangles (Set of 4)', 499, 849, 'maroon', '🧵', '', 'images/Silk_Thread_Bangles__Set_of_4_.jpg'],
+      ['Adjustable Charm Bracelet', 599, 999, 'goldbg', '🔗', '', 'images/Adjustable_Charm_Bracelet.jpg']
+    ]
+  },
+  'rings': {
+    title: 'Rings', icon: '💍',
+    card: 'Kundan, stone & statement rings',
+    desc: 'Let your fingers do the talking — adjustable kundan rings, AD cocktail rings and antique statement pieces with vibrant faux gemstones.',
+    products: [
+      ['AD Cocktail Ring', 449, 799, 'rose', '💍', 'Bestseller', 'images/AD_Cocktail_Ring.jpg'],
+      ['Kundan Ring', 549, 899, 'maroon', '💎', '', 'images/Kundan_ring.jpg'],
+      ['Temple Ring', 599, 999, 'goldbg', '🛕', '', 'images/Temple_Ring.jpg'],
+      ['Pearl Ring', 399, 699, 'green', '🤍', '', 'images/Pearl_Ring.jpg'],
+      ['Adjustable Stone Ring', 349, 599, 'rose', '💠', 'New', 'images/Adjustable_Stone_Ring.jpg'],
+      ['Oxidized Ring', 299, 499, 'maroon', '🌑', '', 'images/Oxidized_Ring.jpg'],
+      ['Meenakari Ring', 499, 849, 'goldbg', '🎨', '', 'images/Meenakari_Ring.jpg'],
+      ['Emerald CZ Ring', 649, 1099, 'green', '🟢', '', 'images/Emerald_CZ_Ring.jpg'],
+      ['Floral Statement Ring', 549, 949, 'rose', '🌸', '', 'images/Floral_Statement_Ring.jpg'],
+      ['Bridal Umbrella Ring', 899, 1499, 'maroon', '👰', 'Bridal', 'images/Bridal_Umbrella_Ring.jpg']
+    ]
+  },
+  'bridal-sets': {
+    title: 'Bridal Sets', icon: '👰',
+    card: 'Complete sets for your big day',
+    desc: 'Complete bridal trousseaus — choker, rani haar, jhumkas, maang tikka and nath in one set. Ace every wedding function, from haldi to reception.',
+    products: [
+      ['Rajwada Bridal Set', 4999, 7999, 'maroon', '👑', 'Bestseller', 'images/Rajwada_Bridal.jpg'],
+      ['Kundan Bridal Set', 4499, 6999, 'green', '💎', '', 'images/Kundan_Bridal_Set.jpg'],
+      ['Temple Bridal Set', 5499, 8499, 'goldbg', '🛕', '', 'images/Temple_Bridal_Set.jpg'],
+      ['Pearl Bridal Set', 3999, 5999, 'rose', '🤍', '', 'images/Pearl_Bridal_Set.jpg'],
+      ['Meenakari Bridal Set', 4299, 6499, 'maroon', '🎨', 'New', 'images/Meenakari_Bridal_Set.jpg'],
+      ['CZ Bridal Set', 3799, 5799, 'green', '✨', '', 'images/CZ_Bridal_Set.jpg'],
+      ['Polki-Style Bridal Set', 5999, 8999, 'goldbg', '💠', '', 'images/Polki-Style_Bridal_Set.jpg'],
+      ['South Indian Bridal Set', 5299, 7999, 'maroon', '🌺', '', 'images/South_Indian_Bridal_Set.jpg'],
+      ['Rajasthani Bridal Set', 4799, 7299, 'rose', '🏰', '', 'images/Rajasthani_Bridal_Set.jpg'],
+      ['Designer Bridal Set', 6499, 9999, 'green', '👰', 'Premium', 'images/Designer_Bridal_Set.jpg']
+    ]
+  },
+  'maang-tikka': {
+    title: 'Maang Tikka & Damini', icon: '✨',
+    card: 'Hair jewellery & jhoomars',
+    desc: 'Maang tikkas, borlas, jhoomar passas and daminis — the crowning touch to bridal and festive looks, with kundan, pearls and meenakari work.',
+    products: [
+      ['Kundan Maang Tikka', 649, 1099, 'maroon', '✨', 'Bestseller', 'images/Kundan_Maang_Tikka.jpg'],
+      ['Pearl Maang Tikka', 549, 899, 'rose', '🤍', '', 'images/Pearl_Maang_Tikka.jpg'],
+      ['Temple Maang Tikka', 699, 1199, 'goldbg', '🛕', '', 'images/Temple_Maang_Tikka.jpg'],
+      ['CZ Maang Tikka', 599, 999, 'green', '💎', '', 'images/CZ_Maang_Tikka.jpg'],
+      ['Rajasthani Borla Tikka', 749, 1249, 'maroon', '🔴', 'New', 'images/Rajasthani_Borla_Tikka.jpg'],
+      ['Jhoomar Passa', 899, 1499, 'rose', '🌙', '', 'images/Jhoomar_Passa.jpg'],
+      ['Damini Matha Patti', 1099, 1799, 'goldbg', '👑', '', 'images/Damini_Matha_Patti.jpg'],
+      ['Meenakari Tikka', 649, 1099, 'green', '🎨', '', 'images/Meenakari_Tikka.jpg'],
+      ['Oxidized Tikka', 449, 749, 'maroon', '🌑', '', 'images/Oxidized_Tikka.jpg'],
+      ['Bridal Damini Set', 1499, 2399, 'rose', '👰', 'Bridal', 'images/Bridal_Damini_Set.jpg']
+    ]
+  },
+  'anklets': {
+    title: 'Anklets & Toe Rings', icon: '🦶',
+    card: 'Pearl & kundan payals',
+    desc: 'Delicate payals with tinkling ghungroos, kundan detailing and matching toe rings — subtle, graceful jewellery for your feet.',
+    products: [
+      ['Kundan Anklets (Pair)', 599, 999, 'rose', '🦶', 'Bestseller', 'images/Kundan_Anklets__Pair_.jpg'],
+      ['Pearl Anklets (Pair)', 549, 899, 'green', '🤍', '', 'images/Pearl_Anklets__Pair_.jpg'],
+      ['Ghungroo Payal (Pair)', 649, 1099, 'maroon', '🔔', '', 'images/Ghungroo_Payal__Pair_.jpg'],
+      ['Oxidized Anklets (Pair)', 449, 749, 'goldbg', '🌑', '', 'images/Oxidized_Anklets__Pair_.jpg'],
+      ['CZ Anklets (Pair)', 699, 1149, 'rose', '💎', 'New', 'images/CZ_Anklets__Pair_.jpg'],
+      ['Temple Anklets (Pair)', 749, 1249, 'maroon', '🛕', '', 'images/Temple_Anklets__Pair_.jpg'],
+      ['Beaded Anklets (Pair)', 399, 649, 'green', '🟣', '', 'images/Beaded_Anklets__Pair_.jpg'],
+      ['Silver-Tone Payal (Pair)', 549, 899, 'goldbg', '⚪', '', 'images/Silver-Tone_Payal__Pair_.jpg'],
+      ['Toe Ring Set (Set of 4)', 299, 499, 'rose', '💍', '', 'images/Toe_Ring_Set__Set_of_4_.jpg'],
+      ['Bridal Payal Set', 999, 1599, 'maroon', '👰', 'Bridal', 'images/Bridal_Payal_Set.jpg']
+    ]
+  },
+  'mangalsutra': {
+    title: 'Mangalsutra', icon: '🌸',
+    card: 'Modern & traditional designs',
+    desc: 'The perfect symbol of marital bliss — from minimal AD pendants for daily wear to traditional long black-bead designs with temple detailing.',
+    products: [
+      ['Tara Modern Mangalsutra', 699, 1199, 'goldbg', '🌸', 'Bestseller', 'images/Tara_Modern_Mangalsutra.jpg'],
+      ['Classic Black Bead Mangalsutra', 799, 1299, 'maroon', '⚫', '', 'images/Classic_Black_Bead_Mangalsutra.jpg'],
+      ['AD Pendant Mangalsutra', 849, 1399, 'rose', '💎', '', 'images/AD_Pendant_Mangalsutra.jpg'],
+      ['Long Traditional Mangalsutra', 1099, 1799, 'green', '📿', '', 'images/Long_Traditional_Mangalsutra.jpg'],
+      ['Short Daily-Wear Mangalsutra', 599, 999, 'goldbg', '☀️', 'New', 'images/Short_Daily-Wear_Mangalsutra.jpg'],
+      ['Temple Mangalsutra', 1199, 1899, 'maroon', '🛕', '', 'images/Temple_Mangalsutra.jpg'],
+      ['Solitaire-Style Mangalsutra', 899, 1499, 'rose', '💠', '', 'images/Solitaire-Style_Mangalsutra.jpg'],
+      ['Layered Mangalsutra', 999, 1599, 'green', '〰️', '', 'images/Layered_Mangalsutra.jpg'],
+      ['Mangalsutra Bracelet', 649, 1099, 'goldbg', '🔗', '', 'images/Mangalsutra_Bracelet.jpg'],
+      ['Peacock Pendant Mangalsutra', 949, 1549, 'maroon', '🦚', '', 'images/Peacock_Pendant_Mangalsutra.jpg']
+    ]
+  }
+};
+
+const fmt = n => '₹' + n.toLocaleString('en-IN');
+
+/* ==========================================================
+   REUSABLE PRODUCT CARD COMPONENT
+   ========================================================== */
+function productCard(slug, index) {
+  const [name, price, mrp, color, emoji, tag, img] = CATEGORIES[slug].products[index];
+  const waText = encodeURIComponent(
+    'Hi Unique & Stylish! ✨ I\'m interested in "' + name + '" (' + fmt(price) + ') from your ' +
+    CATEGORIES[slug].title + ' collection. Please share more details.'
+  );
+  const media = img
+    ? `<img src="${img}" alt="${name}" class="emo prod-photo" loading="lazy">`
+    : `<span class="emo">${emoji}</span>`;
+  return `
+    <div class="prod-card">
+      <div class="prod-img ${img ? 'has-photo' : color}">
+        ${tag ? `<span class="tag">${tag}</span>` : ''}
+        ${media}
+      </div>
+      <div class="prod-body">
+        <h3>${name}</h3>
+        <div class="blurb">${CATEGORIES[slug].title} · Gold-plated · Anti-tarnish</div>
+        <div class="price">${fmt(price)} <s>${fmt(mrp)}</s></div>
+        <div class="card-actions">
+          <a class="wa-btn" target="_blank" rel="noopener"
+             href="https://wa.me/${WHATSAPP_NUMBER}?text=${waText}">🟢 WhatsApp</a>
+          <button class="detail-btn" data-slug="${slug}" data-index="${index}">View Details</button>
+        </div>
+        <button class="add-btn" data-name="${name}" data-price="${price}" data-color="${color}" data-emoji="${emoji}" data-category="${CATEGORIES[slug].title}">🛍 Add to Cart</button>
+      </div>
+    </div>`;
+}
+
+/* ==========================================================
+   HOME PAGE RENDERING (category cards, bestsellers, footer)
+   ========================================================== */
+function renderHomeBlocks() {
+  // Category cards
+  document.getElementById('catGrid').innerHTML = Object.entries(CATEGORIES).map(([slug, c]) => `
+    <a class="cat-card" href="#/${slug}">
+      <div class="icon">${c.icon}</div>
+      <h3>${c.title}</h3>
+      <p>${c.card}</p>
+    </a>`).join('');
+
+  // Bestsellers = first product of each category
+  document.getElementById('bestGrid').innerHTML =
+    Object.keys(CATEGORIES).map(slug => productCard(slug, 0)).join('');
+
+  // Footer category links
+  document.getElementById('footCats').innerHTML = Object.entries(CATEGORIES)
+    .map(([slug, c]) => `<li><a href="#/${slug}">${c.title}</a></li>`).join('');
+}
+
+/* ==========================================================
+   ROUTER  —  #/earrings, #/necklace-sets, ... → category page
+   ========================================================== */
+const homeView = document.getElementById('homeView');
+const categoryView = document.getElementById('categoryView');
+
+function renderCategoryPage(slug) {
+  const c = CATEGORIES[slug];
+  categoryView.innerHTML = `
+    <div class="cat-banner">
+      <div class="breadcrumb"><a href="#/">Home</a> &nbsp;›&nbsp; <a href="#categories">Categories</a> &nbsp;›&nbsp; ${c.title}</div>
+      <span class="icon-big" aria-hidden="true">${c.icon}</span>
+      <h1>${c.title}</h1>
+      <p class="sub">${c.desc}</p>
+      <div class="count-pill">${c.products.length} Designs</div><br>
+      <button class="back-btn" onclick="location.hash='#/'">← Back to Categories</button>
+    </div>
+    <section>
+      <div class="wrap">
+        <div class="prod-grid">
+          ${c.products.map((_, i) => productCard(slug, i)).join('')}
+        </div>
+      </div>
+    </section>`;
+  homeView.style.display = 'none';
+  categoryView.style.display = 'block';
+  document.title = c.title + ' — Unique & Stylish';
+  window.scrollTo(0, 0);
+  if (typeof applyReveals === 'function') applyReveals(categoryView);
+}
+
+function showHome(anchor) {
+  categoryView.style.display = 'none';
+  homeView.style.display = 'block';
+  document.title = 'Unique & Stylish — Imitation Jewellery | Trending Designs';
+  if (anchor) {
+    const el = document.getElementById(anchor);
+    if (el) { el.scrollIntoView({ behavior: 'smooth' }); return; }
+  }
+  window.scrollTo(0, 0);
+}
+
+function renderOurStory() {
+  categoryView.innerHTML = `
+    <div class="cat-banner">
+      <div class="breadcrumb"><a href="#/">Home</a> &nbsp;›&nbsp; Our Story</div>
+      <span class="icon-big" aria-hidden="true">💛</span>
+      <h1>Our Story</h1>
+      <p class="sub">Elegant, trend-inspired & traditional imitation jewellery — crafted for every woman, every occasion.</p>
+      <br>
+      <button class="back-btn" onclick="location.hash='#/'">← Back to Home</button>
+    </div>
+    <section>
+      <div class="wrap" style="max-width:820px">
+        <div class="story-prose">
+          <p>At <strong>Unique &amp; Stylish</strong>, we believe that beautiful jewellery should be accessible to everyone. Our journey began with a simple idea — to bring elegant, trend-inspired, and traditional imitation jewellery to women who love expressing their style without compromising on quality or affordability.</p>
+          <p>From timeless bridal sets and classic mangalsutras to contemporary earrings and statement necklaces, every piece in our collection is carefully selected to celebrate beauty, confidence, and individuality. We blend traditional craftsmanship with modern designs, creating jewellery that complements every occasion — from daily wear to weddings and festive celebrations.</p>
+          <p>Our mission is to make every customer feel special by offering stylish, durable, and affordable jewellery that looks luxurious and feels comfortable to wear. We are committed to quality, customer satisfaction, and bringing the latest trends right to your doorstep.</p>
+          <p>Whether you're searching for the perfect bridal accessory, a thoughtful gift, or an everyday statement piece, we're honored to be a part of your journey.</p>
+        </div>
+        <div class="story-values">
+          <div class="sv"><div class="sv-icon">✨</div><h3>Trend-Inspired</h3><p>The latest designs, refreshed every season.</p></div>
+          <div class="sv"><div class="sv-icon">🛡️</div><h3>Quality First</h3><p>Anti-tarnish, skin-friendly, made to last.</p></div>
+          <div class="sv"><div class="sv-icon">💛</div><h3>Affordable Luxury</h3><p>Royal looks at prices for every day.</p></div>
+        </div>
+        <div style="text-align:center;margin-top:40px">
+          <a href="#categories" class="btn btn-gold">Explore Our Collections</a>
+        </div>
+      </div>
+    </section>`;
+  homeView.style.display = 'none';
+  categoryView.style.display = 'block';
+  document.title = 'Our Story — Unique & Stylish';
+  window.scrollTo(0, 0);
+  if (typeof applyReveals === 'function') applyReveals(categoryView);
+}
+
+function renderReturns() {
+  categoryView.innerHTML = `
+    <div class="cat-banner">
+      <div class="breadcrumb"><a href="#/">Home</a> &nbsp;›&nbsp; Returns &amp; Exchanges</div>
+      <span class="icon-big" aria-hidden="true">↩️</span>
+      <h1>Returns &amp; Exchanges</h1>
+      <p class="sub">Shop with confidence — our easy 7-day exchange policy has you covered.</p>
+      <br>
+      <button class="back-btn" onclick="location.hash='#/'">← Back to Home</button>
+    </div>
+    <section>
+      <div class="wrap" style="max-width:820px">
+        <div class="policy">
+          <div class="pol-block">
+            <h3>🔄 Easy 7-Day Exchange Policy</h3>
+            <p>We offer a hassle-free exchange within 7 days of delivery if you receive a damaged, defective, or incorrect item.</p>
+          </div>
+          <div class="pol-block">
+            <h3>🛡️ Quality Assurance</h3>
+            <p>Every piece is carefully inspected before dispatch to ensure it meets our quality standards.</p>
+          </div>
+          <div class="pol-grid">
+            <div class="pol-card ok">
+              <h4>✓ Eligible for Exchange</h4>
+              <ul>
+                <li>Damaged or defective products</li>
+                <li>Wrong item received</li>
+                <li>Missing items in the package</li>
+              </ul>
+            </div>
+            <div class="pol-card no">
+              <h4>✕ Not Eligible for Return / Exchange</h4>
+              <ul>
+                <li>Products damaged due to misuse or improper handling</li>
+                <li>Customized or personalized jewellery</li>
+                <li>Products without original packaging and tags</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pol-block">
+            <h3>📦 Exchange Process</h3>
+            <p>Simply contact our support team with your order number and clear photos of the issue within 48 hours of delivery. Our team will assist you promptly.</p>
+          </div>
+          <div class="pol-block">
+            <h3>💳 Refund Policy</h3>
+            <p>As jewellery items are carefully curated and quality checked before shipping, we currently offer exchanges instead of refunds.</p>
+          </div>
+          <div class="pol-block">
+            <h3>🎨 Color &amp; Design Disclaimer</h3>
+            <p>Actual product colors may vary slightly due to photography, lighting, and screen settings.</p>
+          </div>
+          <div class="pol-block">
+            <h3>💛 Customer Satisfaction First</h3>
+            <p>Your satisfaction is our priority. If you have any concerns about your order, we're always here to help.</p>
+          </div>
+          <div class="pol-badges">
+            <span>✨ 7-Day Easy Exchange</span>
+            <span>✨ Quality Checked Before Dispatch</span>
+            <span>✨ Secure Packaging</span>
+            <span>✨ Dedicated Customer Support</span>
+            <span>✨ 100% Customer Satisfaction</span>
+          </div>
+          <p class="pol-note"><strong>Note:</strong> Slight variations in color, stone placement, or finish may occur as part of the handcrafted nature of jewellery pieces.</p>
+        </div>
+        <div style="text-align:center;margin-top:36px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+          <a class="wa-btn" style="padding:12px 26px" target="_blank" rel="noopener" href="https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Unique & Stylish! I need help with an exchange. My order number is: ')}">🟢 Request an Exchange</a>
+          <a href="#categories" class="btn btn-gold">Continue Shopping</a>
+        </div>
+      </div>
+    </section>`;
+  homeView.style.display = 'none';
+  categoryView.style.display = 'block';
+  document.title = 'Returns & Exchanges — Unique & Stylish';
+  window.scrollTo(0, 0);
+  if (typeof applyReveals === 'function') applyReveals(categoryView);
+}
+
+function renderWarranty() {
+  categoryView.innerHTML = `
+    <div class="cat-banner">
+      <div class="breadcrumb"><a href="#/">Home</a> &nbsp;›&nbsp; Warranty Information</div>
+      <span class="icon-big" aria-hidden="true">🛡️</span>
+      <h1>Warranty Information</h1>
+      <p class="sub">We stand behind the quality of every piece we craft.</p>
+      <br>
+      <button class="back-btn" onclick="location.hash='#/'">← Back to Home</button>
+    </div>
+    <section>
+      <div class="wrap" style="max-width:820px">
+        <div class="policy">
+          <div class="pol-block">
+            <h3>🛡️ 6-Month Color Warranty</h3>
+            <p>Selected jewellery pieces come with a limited warranty against manufacturing defects and abnormal color fading under normal usage conditions.</p>
+          </div>
+          <div class="pol-grid">
+            <div class="pol-card ok">
+              <h4>✓ What Is Covered</h4>
+              <ul>
+                <li>Manufacturing defects</li>
+                <li>Loose stones due to workmanship issues</li>
+                <li>Defective clasps, hooks, or locks</li>
+                <li>Abnormal plating issues within the warranty period</li>
+              </ul>
+            </div>
+            <div class="pol-card no">
+              <h4>✕ What Is Not Covered</h4>
+              <ul>
+                <li>Normal wear and tear</li>
+                <li>Damage from water, perfume, chemicals, sweat, or improper storage</li>
+                <li>Accidental damage, breakage, or misuse</li>
+                <li>Scratches, dents, or tarnishing due to regular use</li>
+              </ul>
+            </div>
+          </div>
+          <div class="pol-block">
+            <h3>📋 Warranty Claim Process</h3>
+            <p>To initiate a warranty claim, please contact our support team with your order number, product photos, and a brief description of the issue. Our team will review the request and provide assistance accordingly.</p>
+          </div>
+          <div class="pol-block">
+            <h3>✨ Jewellery Care Recommendations</h3>
+            <p>To maintain the beauty and longevity of your jewellery:</p>
+            <ul class="care-list">
+              <li>Store in a dry, airtight pouch.</li>
+              <li>Avoid contact with water, perfume, lotion, and chemicals.</li>
+              <li>Remove jewellery before bathing, swimming, or exercising.</li>
+              <li>Wipe gently with a soft cloth after use.</li>
+            </ul>
+          </div>
+          <div class="pol-badges">
+            <span>🛡️ Quality Assurance Warranty</span>
+            <span>✨ Strict Quality Checks</span>
+            <span>💛 Dedicated Support</span>
+          </div>
+          <div class="pol-block" style="background:#fdf6e6;border:1px solid var(--gold-soft);border-radius:14px;padding:22px;margin-top:8px">
+            <h3>✅ Our Quality Guarantee</h3>
+            <p>All our jewellery pieces undergo strict quality checks before dispatch. While imitation jewellery does not carry a lifetime warranty, we are committed to ensuring that every customer receives a product that meets our quality standards. If you receive a damaged or defective item, please contact us within 48 hours of delivery.</p>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:36px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+          <a class="wa-btn" style="padding:12px 26px" target="_blank" rel="noopener" href="https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Unique & Stylish! I would like to raise a warranty claim. My order number is: ')}">🟢 Raise a Warranty Claim</a>
+          <a href="#categories" class="btn btn-gold">Continue Shopping</a>
+        </div>
+      </div>
+    </section>`;
+  homeView.style.display = 'none';
+  categoryView.style.display = 'block';
+  document.title = 'Warranty Information — Unique & Stylish';
+  window.scrollTo(0, 0);
+  if (typeof applyReveals === 'function') applyReveals(categoryView);
+}
+
+function renderPrivacy() {
+  categoryView.innerHTML = `
+    <div class="cat-banner">
+      <div class="breadcrumb"><a href="#/">Home</a> &nbsp;›&nbsp; Privacy Policy</div>
+      <span class="icon-big" aria-hidden="true">🔒</span>
+      <h1>Privacy Policy</h1>
+      <p class="sub">Your privacy matters to us — here's how we protect it.</p>
+      <div class="count-pill">Last Updated: June 2026</div>
+      <br>
+      <button class="back-btn" onclick="location.hash='#/'">← Back to Home</button>
+    </div>
+    <section>
+      <div class="wrap" style="max-width:820px">
+        <div class="policy">
+          <p style="font-size:1.02rem;line-height:1.8;color:#4a3a40;margin-bottom:24px">Welcome to <strong style="font-family:var(--display);color:var(--maroon);font-weight:400">Unique &amp; Stylish</strong>. We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website and purchase our products.</p>
+
+          <div class="pol-block">
+            <h3>📋 Information We Collect</h3>
+            <p>We may collect the following information:</p>
+            <ul class="care-list">
+              <li>Name</li>
+              <li>Email Address</li>
+              <li>Phone Number</li>
+              <li>Shipping &amp; Billing Address</li>
+              <li>Order Details</li>
+              <li>Payment Information (processed securely through third-party payment providers)</li>
+            </ul>
+          </div>
+
+          <div class="pol-block">
+            <h3>⚙️ How We Use Your Information</h3>
+            <p>We use your information to:</p>
+            <ul class="care-list">
+              <li>Process and fulfill orders</li>
+              <li>Provide customer support</li>
+              <li>Send order updates and notifications</li>
+              <li>Improve our products and services</li>
+              <li>Communicate promotional offers and updates (with your consent)</li>
+            </ul>
+          </div>
+
+          <div class="pol-block">
+            <h3>🔐 Information Security</h3>
+            <p>We implement appropriate security measures to protect your personal information from unauthorized access, disclosure, or misuse.</p>
+          </div>
+          <div class="pol-block">
+            <h3>🤝 Sharing of Information</h3>
+            <p>We do not sell, trade, or rent your personal information to third parties. Information may only be shared with trusted service providers involved in payment processing, shipping, and order fulfillment.</p>
+          </div>
+          <div class="pol-block">
+            <h3>🍪 Cookies</h3>
+            <p>Our website may use cookies to improve user experience, analyze website traffic, and personalize content.</p>
+          </div>
+          <div class="pol-block">
+            <h3>🔗 Third-Party Services</h3>
+            <p>Our website may contain links to third-party websites or services. We are not responsible for the privacy practices of those websites.</p>
+          </div>
+          <div class="pol-block">
+            <h3>🧒 Children's Privacy</h3>
+            <p>Our services are not intended for individuals under 18 years of age. We do not knowingly collect personal information from children.</p>
+          </div>
+          <div class="pol-block">
+            <h3>📝 Changes to This Privacy Policy</h3>
+            <p>We reserve the right to update this Privacy Policy at any time. Changes will be posted on this page with the updated revision date.</p>
+          </div>
+
+          <div class="pol-block" style="background:#fdf6e6;border:1px solid var(--gold-soft);border-radius:14px;padding:22px;margin-top:8px">
+            <h3>📞 Contact Us</h3>
+            <p>If you have any questions regarding this Privacy Policy, please contact us:</p>
+            <p style="margin-top:10px">📧 Email: <a href="mailto:support@uniqueandstylish.com" style="color:var(--maroon);border-bottom:1px solid var(--gold)">support@uniqueandstylish.com</a><br>
+            📱 Phone: <a href="tel:+918904411046" style="color:var(--maroon);border-bottom:1px solid var(--gold)">+91 89044 11046</a></p>
+          </div>
+
+          <p class="pol-note" style="border:none;font-size:1rem;color:var(--maroon);font-style:normal;margin-top:8px">Thank you for trusting <strong>Unique &amp; Stylish</strong>. 💛</p>
+        </div>
+        <div style="text-align:center;margin-top:28px">
+          <a href="#categories" class="btn btn-gold">Continue Shopping</a>
+        </div>
+      </div>
+    </section>`;
+  homeView.style.display = 'none';
+  categoryView.style.display = 'block';
+  document.title = 'Privacy Policy — Unique & Stylish';
+  window.scrollTo(0, 0);
+  if (typeof applyReveals === 'function') applyReveals(categoryView);
+}
+
+function route() {
+  const h = location.hash;
+  if (h.startsWith('#/')) {
+    const slug = h.slice(2).replace(/\/+$/, '');
+    if (slug === 'our-story') { renderOurStory(); return; }
+    if (slug === 'returns-exchanges') { renderReturns(); return; }
+    if (slug === 'warranty') { renderWarranty(); return; }
+    if (slug === 'privacy-policy') { renderPrivacy(); return; }
+    if (CATEGORIES[slug]) { renderCategoryPage(slug); return; }
+    showHome();                       // #/ or unknown route → home
+  } else if (h.length > 1) {
+    showHome(h.slice(1));             // #categories, #reviews → home + scroll
+  } else {
+    showHome();
+  }
+}
+window.addEventListener('hashchange', route);
+
+/* ==========================================================
+   PRODUCT DETAILS MODAL
+   ========================================================== */
+const modalOverlay = document.getElementById('modalOverlay');
+const modalBox = document.getElementById('modalBox');
+
+function openDetails(slug, index) {
+  const c = CATEGORIES[slug];
+  const [name, price, mrp, color, emoji, tag, img] = c.products[index];
+  const off = Math.round((1 - price / mrp) * 100);
+  const waText = encodeURIComponent(
+    'Hi Unique & Stylish! ✨ I\'m interested in "' + name + '" (' + fmt(price) + '). Please share more details.'
+  );
+  const modalMedia = img
+    ? `<div class="modal-img has-photo"><img src="${img}" alt="${name}"></div>`
+    : `<div class="modal-img prod-img ${color}">${emoji}</div>`;
+  modalBox.innerHTML = `
+    ${modalMedia}
+    <div class="modal-info">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <div class="crumb">${c.title}${tag ? ' · ' + tag : ''}</div>
+      <h2>${name}</h2>
+      <div class="price">${fmt(price)} <s>${fmt(mrp)}</s> &nbsp;<span style="color:var(--emerald);font-size:.85rem;font-weight:700">${off}% OFF</span></div>
+      <p>A handcrafted piece from our ${c.title.toLowerCase()} collection — premium gold-plated finish with intricate detailing, designed to look royal and feel light all day.</p>
+      <ul class="spec">
+        <li>Gold-plated brass/alloy · Anti-tarnish coating</li>
+        <li>Faux kundan / kemp stones / pearls</li>
+        <li>Nickel-safe &amp; skin friendly</li>
+        <li>6-month plating warranty · 7-day easy returns</li>
+        <li>Free shipping above ₹999 · COD available</li>
+      </ul>
+      <div class="modal-actions">
+        <button class="add-btn" data-name="${name}" data-price="${price}" data-color="${color}" data-emoji="${emoji}" data-category="${c.title}">Add to Cart</button>
+        <a class="wa-btn" target="_blank" rel="noopener" href="https://wa.me/${WHATSAPP_NUMBER}?text=${waText}">🟢 Ask on WhatsApp</a>
+      </div>
+    </div>`;
+  modalOverlay.classList.add('open');
+}
+modalOverlay.addEventListener('click', e => {
+  if (e.target === modalOverlay || e.target.id === 'modalClose') modalOverlay.classList.remove('open');
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') modalOverlay.classList.remove('open'); });
+
+/* ==========================================================
+   CART + CHECKOUT + PAYMENT (GPay / Paytm / UPI / COD)
+   ========================================================== */
+const UPI_ID = 'uniqueandstylish@upi';      // <-- replace with your real UPI ID
+const STORE_NAME = 'Unique and Stylish';
+const FREE_SHIP_ABOVE = 999, SHIP_FEE = 79;
+
+let cartItems = [];                         // {name, price, qty, color, emoji}
+let drawerStep = 'cart';                    // cart | checkout | payment | done
+let selectedPay = '';
+let lastOrder = null;
+const customer = { name: '', phone: '', address: '', pincode: '' };
+
+const cartCount = document.getElementById('cartCount');
+const cartDrawer = document.getElementById('cartDrawer');
+const cartOverlay = document.getElementById('cartOverlay');
+const drawerBody = document.getElementById('drawerBody');
+const drawerFoot = document.getElementById('drawerFoot');
+const drawerTitle = document.getElementById('drawerTitle');
+const toast = document.getElementById('toast');
+let toastTimer;
+
+function showToast(text) {
+  toast.textContent = text;
+  toast.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
+}
+
+const totalQty = () => cartItems.reduce((s, i) => s + i.qty, 0);
+const subTotal = () => cartItems.reduce((s, i) => s + i.price * i.qty, 0);
+const shipFee = () => (cartItems.length && subTotal() < FREE_SHIP_ABOVE) ? SHIP_FEE : 0;
+const grandTotal = () => subTotal() + shipFee();
+
+function updateBadge() { cartCount.textContent = totalQty(); }
+
+function addToCart(name, price, color, emoji, category) {
+  const found = cartItems.find(i => i.name === name);
+  if (found) found.qty++;
+  else cartItems.push({ name, price, qty: 1, color: color || 'maroon', emoji: emoji || '💎', category: category || 'Jewellery' });
+  updateBadge();
+  showToast(name + ' added to cart ✓');
+  if (cartDrawer.classList.contains('open')) renderDrawer();
+}
+
+function changeQty(idx, delta) {
+  cartItems[idx].qty += delta;
+  if (cartItems[idx].qty <= 0) cartItems.splice(idx, 1);
+  updateBadge();
+  renderDrawer();
+}
+
+function openDrawer(step) {
+  drawerStep = step || 'cart';
+  renderDrawer();
+  cartDrawer.classList.add('open');
+  cartOverlay.classList.add('open');
+}
+function closeDrawer() {
+  cartDrawer.classList.remove('open');
+  cartOverlay.classList.remove('open');
+  if (drawerStep === 'done') drawerStep = 'cart';
+}
+
+/* ---------- Drawer step renderers ---------- */
+function renderDrawer() {
+  if (drawerStep === 'cart') renderCartStep();
+  else if (drawerStep === 'checkout') renderCheckoutStep();
+  else if (drawerStep === 'payment') renderPaymentStep();
+  else renderDoneStep();
+}
+
+function totalsHTML() {
+  return `
+    <div class="totals">
+      <div class="row"><span>Subtotal (${totalQty()} item${totalQty() > 1 ? 's' : ''})</span><span>${fmt(subTotal())}</span></div>
+      <div class="row"><span>Shipping</span><span>${shipFee() === 0 ? 'FREE' : fmt(shipFee())}</span></div>
+      ${subTotal() < FREE_SHIP_ABOVE && cartItems.length ? `<div class="free-ship-note">Add ${fmt(FREE_SHIP_ABOVE - subTotal())} more for FREE shipping 🚚</div>` : ''}
+      <div class="row grand"><span>Total</span><span>${fmt(grandTotal())}</span></div>
+    </div>`;
+}
+
+function renderCartStep() {
+  drawerTitle.textContent = 'Your Cart';
+  if (!cartItems.length) {
+    drawerBody.innerHTML = `<div class="empty-cart"><div class="big">🛍️</div>Your cart is empty.<br>Add some sparkle to it! ✨</div>`;
+    drawerFoot.innerHTML = `<button class="btn btn-gold checkout-btn" id="contShop">Continue Shopping</button>`;
+    document.getElementById('contShop').onclick = closeDrawer;
+    return;
+  }
+  drawerBody.innerHTML = cartItems.map((i, idx) => `
+    <div class="cart-item">
+      <div class="ci-img prod-img ${i.color}">${i.emoji}</div>
+      <div class="ci-info">
+        <h4>${i.name}</h4>
+        <div class="ci-price">${fmt(i.price)} each</div>
+        <div class="qty">
+          <button data-act="dec" data-idx="${idx}" aria-label="Decrease">−</button>
+          <span>${i.qty}</span>
+          <button data-act="inc" data-idx="${idx}" aria-label="Increase">+</button>
+        </div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-weight:700;font-size:.9rem">${fmt(i.price * i.qty)}</div>
+        <button class="ci-remove" data-act="rem" data-idx="${idx}" aria-label="Remove">🗑</button>
+      </div>
+    </div>`).join('');
+  drawerFoot.innerHTML = totalsHTML() +
+    `<button class="btn btn-gold checkout-btn" id="goCheckout">Proceed to Checkout →</button>`;
+  document.getElementById('goCheckout').onclick = () => { drawerStep = 'checkout'; renderDrawer(); };
+}
+
+function renderCheckoutStep() {
+  drawerTitle.textContent = 'Checkout';
+  drawerBody.innerHTML = `
+    <button class="back-link" id="backToCart">← Back to cart</button>
+    <div id="ckLoginHint"></div>
+    <div class="ck-form">
+      <label for="ckName">Full Name</label>
+      <input id="ckName" type="text" placeholder="e.g. Priya Sharma" value="${customer.name}">
+      <label for="ckPhone">Mobile Number</label>
+      <input id="ckPhone" type="tel" placeholder="10-digit mobile number" maxlength="10" value="${customer.phone}">
+      <label for="ckAddr">Delivery Address</label>
+      <textarea id="ckAddr" rows="3" placeholder="House no, street, area, city, state">${customer.address}</textarea>
+      <label for="ckPin">Pincode</label>
+      <input id="ckPin" type="text" placeholder="6-digit pincode" maxlength="6" value="${customer.pincode}">
+      <label>Payment Method</label>
+      <label class="pay-opt ${selectedPay === 'gpay' ? 'selected' : ''}">
+        <input type="radio" name="pay" value="gpay" ${selectedPay === 'gpay' ? 'checked' : ''}>
+        <span class="pay-logo gpay">G</span>
+        <span><span class="pay-name">Google Pay (UPI)</span><br><span class="pay-sub">Pay instantly via GPay app</span></span>
+      </label>
+      <label class="pay-opt ${selectedPay === 'paytm' ? 'selected' : ''}">
+        <input type="radio" name="pay" value="paytm" ${selectedPay === 'paytm' ? 'checked' : ''}>
+        <span class="pay-logo paytm">P</span>
+        <span><span class="pay-name">Paytm (UPI)</span><br><span class="pay-sub">Pay instantly via Paytm app</span></span>
+      </label>
+      <label class="pay-opt ${selectedPay === 'upi' ? 'selected' : ''}">
+        <input type="radio" name="pay" value="upi" ${selectedPay === 'upi' ? 'checked' : ''}>
+        <span class="pay-logo upi">₹</span>
+        <span><span class="pay-name">Other UPI Apps</span><br><span class="pay-sub">PhonePe, BHIM or any UPI app</span></span>
+      </label>
+      <label class="pay-opt ${selectedPay === 'cod' ? 'selected' : ''}">
+        <input type="radio" name="pay" value="cod" ${selectedPay === 'cod' ? 'checked' : ''}>
+        <span class="pay-logo cod">💵</span>
+        <span><span class="pay-name">Cash on Delivery</span><br><span class="pay-sub">Pay when your order arrives (up to ₹5,000)</span></span>
+      </label>
+    </div>`;
+  drawerFoot.innerHTML = totalsHTML() +
+    `<button class="btn btn-gold checkout-btn" id="placeOrder">Place Order — ${fmt(grandTotal())}</button>`;
+
+  document.getElementById('backToCart').onclick = () => { saveForm(); drawerStep = 'cart'; renderDrawer(); };
+  const hint = document.getElementById('ckLoginHint');
+  if (typeof currentUser !== 'undefined' && currentUser) {
+    hint.innerHTML = `<div class="free-ship-note">✓ Ordering as <strong>${currentUser.name}</strong> — this purchase will be saved to your account.</div>`;
+  } else {
+    hint.innerHTML = `<div class="acct-row" style="font-size:.8rem">👤 <span>Have an account? <strong>Login</strong> to save this order to your history.</span><button class="back-link" id="ckLoginBtn" style="margin:0">Login</button></div>`;
+    document.getElementById('ckLoginBtn').addEventListener('click', () => {
+      saveForm(); renderAuth('login'); document.getElementById('authOverlay').classList.add('open');
+    });
+  }
+  drawerBody.querySelectorAll('input[name="pay"]').forEach(r => r.addEventListener('change', e => {
+    selectedPay = e.target.value;
+    drawerBody.querySelectorAll('.pay-opt').forEach(p => p.classList.remove('selected'));
+    e.target.closest('.pay-opt').classList.add('selected');
+  }));
+  document.getElementById('placeOrder').onclick = submitCheckout;
+}
+
+function saveForm() {
+  const g = id => document.getElementById(id);
+  if (g('ckName')) {
+    customer.name = g('ckName').value.trim();
+    customer.phone = g('ckPhone').value.trim();
+    customer.address = g('ckAddr').value.trim();
+    customer.pincode = g('ckPin').value.trim();
+  }
+}
+
+function submitCheckout() {
+  saveForm();
+  const g = id => document.getElementById(id);
+  let ok = true;
+  [['ckName', customer.name.length >= 3],
+   ['ckPhone', /^[6-9]\d{9}$/.test(customer.phone)],
+   ['ckAddr', customer.address.length >= 10],
+   ['ckPin', /^\d{6}$/.test(customer.pincode)]].forEach(([id, valid]) => {
+    g(id).classList.toggle('err', !valid);
+    if (!valid) ok = false;
+  });
+  if (!ok) { showToast('Please fill all delivery details correctly'); return; }
+  if (!selectedPay) { showToast('Please select a payment method'); return; }
+  if (selectedPay === 'cod' && grandTotal() > 5000) { showToast('COD is available only up to ₹5,000 — please choose UPI'); return; }
+
+  lastOrder = {
+    id: 'US' + Date.now().toString().slice(-8),
+    items: cartItems.map(i => ({ ...i })),
+    total: grandTotal(),
+    pay: selectedPay,
+    name: customer.name
+  };
+
+  if (selectedPay === 'cod') finishOrder('Cash on Delivery');
+  else { drawerStep = 'payment'; renderDrawer(); }
+}
+
+function upiLink(app) {
+  const params = 'pa=' + UPI_ID +
+    '&pn=' + encodeURIComponent(STORE_NAME) +
+    '&am=' + grandTotal() +
+    '&cu=INR&tn=' + encodeURIComponent('Order ' + lastOrder.id);
+  if (app === 'gpay') return 'tez://upi/pay?' + params;
+  if (app === 'paytm') return 'paytmmp://pay?' + params;
+  return 'upi://pay?' + params;
+}
+
+function renderPaymentStep() {
+  const label = selectedPay === 'gpay' ? 'Google Pay' : selectedPay === 'paytm' ? 'Paytm' : 'your UPI app';
+  drawerTitle.textContent = 'Payment';
+  drawerBody.innerHTML = `
+    <button class="back-link" id="backToCk">← Back to checkout</button>
+    <div class="pay-wait">
+      <div style="font-size:2.2rem">${selectedPay === 'gpay' ? '🟦' : selectedPay === 'paytm' ? '🟦' : '💜'}</div>
+      <p>Pay securely with <strong>${label}</strong></p>
+      <div class="amt">${fmt(grandTotal())}</div>
+      <p style="font-size:.8rem;color:#7a6a70">Order ID: <strong>${lastOrder.id}</strong> · UPI ID: <strong>${UPI_ID}</strong></p>
+      <a class="btn btn-gold upi-link-btn" id="upiPayBtn" href="${upiLink(selectedPay)}">Open ${label} &amp; Pay</a>
+      <p style="font-size:.76rem;color:#7a6a70">The app opens with the amount pre-filled. On desktop, scan/pay to <strong>${UPI_ID}</strong> from your phone. After paying, tap the button below.</p>
+    </div>`;
+  drawerFoot.innerHTML = `<button class="btn btn-gold checkout-btn" id="paidBtn">✓ I've Completed the Payment</button>`;
+  document.getElementById('backToCk').onclick = () => { drawerStep = 'checkout'; renderDrawer(); };
+  document.getElementById('paidBtn').onclick = () => finishOrder(label + ' (UPI)');
+}
+
+function finishOrder(payLabel) {
+  lastOrder.payLabel = payLabel;
+  lastOrder.customer = { ...customer };
+  lastOrder.subtotal = subTotal();
+  lastOrder.shipping = shipFee();
+  saveOrderToDB(lastOrder);          // store purchase in MongoDB via backend API
+  cartItems = [];
+  updateBadge();
+  drawerStep = 'done';
+  renderDrawer();
+}
+
+/* Send the order to the Node/Express backend → MongoDB */
+async function saveOrderToDB(order) {
+  try {
+    const res = await fetch(API_BASE + '/api/orders', {
+      method: 'POST',
+      headers: authHeaders(),
+      body: JSON.stringify({
+        orderId: order.id,
+        customer: order.customer,
+        items: order.items.map(i => ({ name: i.name, category: i.category, price: i.price, qty: i.qty })),
+        subtotal: order.subtotal,
+        shipping: order.shipping,
+        total: order.total,
+        paymentMethod: order.payLabel
+      })
+    });
+    if (res.ok) showToast('Order saved to your account ✓');
+    else console.warn('Order API responded with', res.status);
+  } catch (err) {
+    console.warn('Could not reach backend — order not stored in DB.', err);
+  }
+}
+
+function renderDoneStep() {
+  drawerTitle.textContent = 'Order Placed';
+  const o = lastOrder;
+  const waMsg = encodeURIComponent(
+    'Hi Unique & Stylish! 🛍 I just placed order ' + o.id + ' (' + fmt(o.total) + ', ' + o.payLabel + ').\n' +
+    o.items.map(i => '• ' + i.name + ' × ' + i.qty).join('\n') +
+    '\nName: ' + o.name + '. Please confirm my order.'
+  );
+  drawerBody.innerHTML = `
+    <div class="confirm">
+      <div class="tick">✓</div>
+      <h3>Thank you, ${o.name.split(' ')[0]}!</h3>
+      <p>Your order has been placed successfully.</p>
+      <div class="oid">Order ID: ${o.id}</div>
+      <div class="mini-summary">
+        ${o.items.map(i => `<div class="row"><span>${i.name} × ${i.qty}</span><span>${fmt(i.price * i.qty)}</span></div>`).join('')}
+        <div class="row" style="font-weight:700;border-top:1px dashed var(--gold-soft);padding-top:6px;margin-top:6px"><span>Paid via ${o.payLabel}</span><span>${fmt(o.total)}</span></div>
+      </div>
+      <p>${o.payLabel === 'Cash on Delivery' ? 'Keep ' + fmt(o.total) + ' ready at delivery. ' : ''}Expected delivery in 3–7 business days. 📦</p>
+      <a class="wa-btn" style="margin-top:14px;padding:11px" target="_blank" rel="noopener" href="https://wa.me/${WHATSAPP_NUMBER}?text=${waMsg}">🟢 Confirm Order on WhatsApp</a>
+    </div>`;
+  drawerFoot.innerHTML = `<button class="btn btn-gold checkout-btn" id="doneShop">Continue Shopping</button>`;
+  document.getElementById('doneShop').onclick = closeDrawer;
+}
+
+/* ---------- Global click delegation ---------- */
+document.addEventListener('click', e => {
+  const add = e.target.closest('.add-btn');
+  if (add) { addToCart(add.dataset.name, Number(add.dataset.price), add.dataset.color, add.dataset.emoji, add.dataset.category); return; }
+  const det = e.target.closest('.detail-btn');
+  if (det) { openDetails(det.dataset.slug, Number(det.dataset.index)); return; }
+  const qbtn = e.target.closest('[data-act]');
+  if (qbtn && cartDrawer.contains(qbtn)) {
+    const idx = Number(qbtn.dataset.idx);
+    if (qbtn.dataset.act === 'inc') changeQty(idx, 1);
+    else if (qbtn.dataset.act === 'dec') changeQty(idx, -1);
+    else if (qbtn.dataset.act === 'rem') changeQty(idx, -cartItems[idx].qty);
+  }
+});
+
+document.getElementById('cartBtn').addEventListener('click', () => openDrawer('cart'));
+document.getElementById('drawerClose').addEventListener('click', closeDrawer);
+cartOverlay.addEventListener('click', closeDrawer);
+
+/* ==========================================================
+   NEWSLETTER + MOBILE MENU
+   ========================================================== */
+document.getElementById('newsForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const email = document.getElementById('newsEmail').value.trim();
+  if (email) {
+    document.getElementById('news-msg').textContent = 'Welcome to the club! Check ' + email + ' for your 10% off code.';
+    e.target.reset();
+  }
+});
+
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+menuToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+/* ==========================================================
+   ACCOUNTS — Register / Login / My Orders  (MongoDB backend)
+   Talks to the Node/Express API in server.js
+   ========================================================== */
+const API_BASE = '';            // same origin when served by server.js; or e.g. 'http://localhost:5000'
+let authToken = null;           // kept in memory; see README for persisting sessions on your own host
+let currentUser = null;
+
+const acctBtn = document.getElementById('acctBtn');
+const authOverlay = document.getElementById('authOverlay');
+const authBox = document.getElementById('authBox');
+
+function authHeaders() {
+  const h = { 'Content-Type': 'application/json' };
+  if (authToken) h['Authorization'] = 'Bearer ' + authToken;
+  return h;
+}
+
+function setUser(user, token) {
+  currentUser = user;
+  authToken = token || authToken;
+  acctBtn.textContent = user ? '👤 ' + user.name.split(' ')[0] : '👤 Login';
+  if (user) {
+    customer.name = customer.name || user.name;
+    customer.phone = customer.phone || user.phone || '';
+  }
+}
+
+function closeAuth() { authOverlay.classList.remove('open'); }
+authOverlay.addEventListener('click', e => { if (e.target === authOverlay) closeAuth(); });
+
+acctBtn.addEventListener('click', () => {
+  currentUser ? renderAccount() : renderAuth('register');
+  authOverlay.classList.add('open');
+});
+
+/* ---------- Register / Login forms ---------- */
+function renderAuth(tab) {
+  const isReg = tab === 'register';
+  authBox.innerHTML = `
+    <button class="modal-close" onclick="document.getElementById('authOverlay').classList.remove('open')" aria-label="Close">✕</button>
+    <h2>${isReg ? 'Create Your Account' : 'Welcome Back'}</h2>
+    <div class="ornament">✦</div>
+    <div class="auth-tabs">
+      <button class="auth-tab ${isReg ? 'active' : ''}" data-tab="register">Register</button>
+      <button class="auth-tab ${!isReg ? 'active' : ''}" data-tab="login">Login</button>
+    </div>
+    <div class="ck-form">
+      ${isReg ? `
+        <label for="auName">Full Name</label>
+        <input id="auName" type="text" placeholder="e.g. Priya Sharma">
+        <label for="auPhone">Mobile Number</label>
+        <input id="auPhone" type="tel" maxlength="10" placeholder="10-digit mobile number">` : ''}
+      <label for="auEmail">Email</label>
+      <input id="auEmail" type="email" placeholder="you@example.com">
+      <label for="auPass">Password</label>
+      <input id="auPass" type="password" placeholder="${isReg ? 'Minimum 6 characters' : 'Your password'}">
+      <button class="btn btn-gold checkout-btn" id="authSubmit" style="margin-top:18px">${isReg ? 'Create Account' : 'Login'}</button>
+      <div class="auth-msg" id="authMsg" role="status"></div>
+      <div class="server-note">Your account & orders are stored securely in our database.</div>
+    </div>`;
+  authBox.querySelectorAll('.auth-tab').forEach(b => b.addEventListener('click', () => renderAuth(b.dataset.tab)));
+  document.getElementById('authSubmit').addEventListener('click', () => isReg ? doRegister() : doLogin());
+  authBox.querySelectorAll('input').forEach(inp => inp.addEventListener('keydown', e => {
+    if (e.key === 'Enter') (isReg ? doRegister() : doLogin());
+  }));
+}
+
+function authMsg(text, ok) {
+  const el = document.getElementById('authMsg');
+  el.textContent = text;
+  el.className = 'auth-msg ' + (ok ? 'ok' : 'bad');
+}
+
+async function doRegister() {
+  const name = document.getElementById('auName').value.trim();
+  const phone = document.getElementById('auPhone').value.trim();
+  const email = document.getElementById('auEmail').value.trim().toLowerCase();
+  const password = document.getElementById('auPass').value;
+  if (name.length < 3) return authMsg('Please enter your full name', false);
+  if (!/^[6-9]\d{9}$/.test(phone)) return authMsg('Please enter a valid 10-digit mobile number', false);
+  if (!/^\S+@\S+\.\S+$/.test(email)) return authMsg('Please enter a valid email', false);
+  if (password.length < 6) return authMsg('Password must be at least 6 characters', false);
+  authMsg('Creating your account…', true);
+  try {
+    const res = await fetch(API_BASE + '/api/register', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, phone, email, password })
+    });
+    const data = await res.json();
+    if (!res.ok) return authMsg(data.error || 'Registration failed', false);
+    setUser(data.user, data.token);
+    authMsg('Account created! Welcome, ' + data.user.name.split(' ')[0] + ' 🎉', true);
+    showToast('Welcome to Unique & Stylish, ' + data.user.name.split(' ')[0] + '! ✨');
+    setTimeout(closeAuth, 1200);
+  } catch (err) {
+    authMsg('Could not reach the server. Please run the backend (see README) and try again.', false);
+  }
+}
+
+async function doLogin() {
+  const email = document.getElementById('auEmail').value.trim().toLowerCase();
+  const password = document.getElementById('auPass').value;
+  if (!email || !password) return authMsg('Please enter email and password', false);
+  authMsg('Logging you in…', true);
+  try {
+    const res = await fetch(API_BASE + '/api/login', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password })
+    });
+    const data = await res.json();
+    if (!res.ok) return authMsg(data.error || 'Login failed', false);
+    setUser(data.user, data.token);
+    authMsg('Welcome back, ' + data.user.name.split(' ')[0] + '! 💛', true);
+    showToast('Logged in as ' + data.user.name.split(' ')[0]);
+    setTimeout(closeAuth, 1000);
+  } catch (err) {
+    authMsg('Could not reach the server. Please run the backend (see README) and try again.', false);
+  }
+}
+
+/* ---------- Account panel with order history from MongoDB ---------- */
+async function renderAccount() {
+  authBox.innerHTML = `
+    <button class="modal-close" onclick="document.getElementById('authOverlay').classList.remove('open')" aria-label="Close">✕</button>
+    <h2>My Account</h2>
+    <div class="ornament">✦</div>
+    <div class="acct-row"><span><strong>${currentUser.name}</strong><br><span style="color:#7a6a70">${currentUser.email}</span></span>
+      <button class="back-link" id="logoutBtn" style="margin:0">Logout</button></div>
+    <h3 style="color:var(--maroon);font-size:1rem;margin:16px 0 10px">My Orders</h3>
+    <div id="myOrders" style="font-size:.85rem;color:#7a6a70">Loading your orders…</div>`;
+  document.getElementById('logoutBtn').addEventListener('click', () => {
+    authToken = null; setUser(null); closeAuth(); showToast('Logged out — see you soon! 👋');
+  });
+  try {
+    const res = await fetch(API_BASE + '/api/my-orders', { headers: authHeaders() });
+    const orders = await res.json();
+    const box = document.getElementById('myOrders');
+    if (!res.ok || !Array.isArray(orders)) { box.textContent = 'Could not load orders.'; return; }
+    box.innerHTML = orders.length === 0
+      ? 'No orders yet — your purchases will appear here. 🛍'
+      : orders.map(o => `
+        <div class="acct-row">
+          <span><strong>${o.orderId}</strong> · ${new Date(o.createdAt).toLocaleDateString('en-IN')}<br>
+          <span style="color:#7a6a70">${o.items.map(i => i.name + ' ×' + i.qty).join(', ')}</span></span>
+          <span style="text-align:right"><span class="order-pill">${o.status || 'Placed'}</span><br><strong>${fmt(o.total)}</strong></span>
+        </div>`).join('');
+  } catch {
+    document.getElementById('myOrders').textContent = 'Could not reach the server.';
+  }
+}
+
+/* ==========================================================
+   CHATBOT — menu-driven jewellery assistant
+   ========================================================== */
+const chatFab = document.getElementById('chatFab');
+const chatPanel = document.getElementById('chatPanel');
+const chatClose = document.getElementById('chatClose');
+const chatBody = document.getElementById('chatBody');
+const chatForm = document.getElementById('chatForm');
+const chatText = document.getElementById('chatText');
+let chatStarted = false;
+
+const WA = WHATSAPP_NUMBER; // reuse store WhatsApp number
+
+// Quick-suggestion buttons shown under the welcome message
+const quickChips = [
+  '💍 Shop Earrings', '👰 Bridal Collection', '🔥 Best Sellers', '🎁 Current Offers',
+  '📦 Track Order', '🚚 Shipping Info', '🔄 Returns Policy', '💳 Payment Options',
+  '📞 Contact Us', '💬 WhatsApp Support'
+];
+
+// MENU TREE — each node: { reply, options:[{label, go|action}], link? }
+const MENU = {
+  main: {
+    reply: "Here's how I can help you 💁‍♀️ Pick a topic below:",
+    options: [
+      { label: '💍 Shop by Category', go: 'category' },
+      { label: '🚚 Shipping Information', go: 'shipping' },
+      { label: '🎁 Offers & Discounts', go: 'offers' },
+      { label: '🔄 Returns & Exchanges', go: 'returns' },
+      { label: '📦 Order Support', go: 'order' },
+      { label: '💎 Product Assistance', go: 'product' },
+      { label: '📏 Jewellery Care', go: 'care' },
+      { label: '💳 Payment Support', go: 'payment' },
+      { label: '👰 Bridal Jewellery Expert', go: 'bridal' },
+      { label: '🎨 Style Assistant', go: 'style' },
+      { label: '📞 Contact Us', go: 'contact' },
+      { label: '❓ FAQs', go: 'faq' }
+    ]
+  },
+
+  /* ---------- Shop by Category ---------- */
+  category: {
+    reply: 'Explore our collections 💍 Tap a category to open it:',
+    options: [
+      { label: 'Earrings', link: '#/earrings' },
+      { label: 'Necklace Sets', link: '#/necklace-sets' },
+      { label: 'Bangles & Bracelets', link: '#/bangles-bracelets' },
+      { label: 'Rings', link: '#/rings' },
+      { label: 'Bridal Sets', link: '#/bridal-sets' },
+      { label: 'Maang Tikka & Damini', link: '#/maang-tikka' },
+      { label: 'Anklets & Toe Rings', link: '#/anklets' },
+      { label: 'Mangalsutra', link: '#/mangalsutra' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Shipping ---------- */
+  shipping: {
+    reply: 'Shipping Information 🚚 What would you like to know?',
+    options: [
+      { label: 'Delivery Time', say: 'Delivery Time ⏱\nOrders are dispatched within 24–48 hours and delivered in 3–7 business days across India.' },
+      { label: 'Shipping Charges', say: 'Shipping Charges 💰\n• FREE shipping on orders above ₹999\n• Orders below ₹999: flat ₹79' },
+      { label: 'Express Delivery', say: 'Express Delivery ⚡\nAvailable in select metro cities for an extra fee — delivery in 1–2 business days. Share your pincode on WhatsApp to check availability.' },
+      { label: 'International Shipping', say: 'International Shipping 🌍\nCurrently we ship within India only. International shipping is coming soon — stay tuned!' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Offers ---------- */
+  offers: {
+    reply: 'Offers & Discounts 🎁 Pick one:',
+    options: [
+      { label: 'Current Offers', say: 'Current Offers ✨\n• 10% off on orders above ₹2,499 — code STYLE10\n• FREE shipping above ₹999' },
+      { label: 'Coupon Codes', say: 'Coupon Codes 🏷\n• STYLE10 — 10% off above ₹2,499\n• Newsletter subscribers get a welcome 10% off code!' },
+      { label: 'Festival Sale', say: 'Festival Sale 🪔\nWe run special sales during Diwali, Navratri, Raksha Bandhan and wedding season — subscribe to our newsletter so you never miss one!' },
+      { label: 'Bulk Order Discount', say: 'Bulk Order Discount 📦\nPlanning to buy for a wedding or reselling? We offer special rates on bulk orders. Message us on WhatsApp with your requirement.' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Returns ---------- */
+  returns: {
+    reply: 'Returns & Exchanges 🔄 What do you need?',
+    options: [
+      { label: 'Return Policy', say: 'Return Policy ↩️\nAs each piece is quality-checked before shipping, we offer exchanges instead of refunds. Damaged/defective/wrong items can be exchanged within 7 days.' },
+      { label: 'Exchange Policy', say: 'Exchange Policy 🔄\nEasy 7-day exchange for damaged, defective or incorrect items. Product must be unused with original packaging and tags.' },
+      { label: 'Refund Status', say: 'Refund Status 💳\nFor any approved refund/exchange status, please share your order ID with our team on WhatsApp and we\'ll update you right away.' },
+      { label: 'Warranty Information', link: '#/warranty' },
+      { label: 'Full Returns Page', link: '#/returns-exchanges' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Order Support ---------- */
+  order: {
+    reply: 'Order Support 📦 How can I help?',
+    options: [
+      { label: 'Track My Order', say: 'Track My Order 📦\nShare your order ID with our team on WhatsApp/call +91 89044 11046 or email hello@uniqueandstylish.in — we\'ll send you live updates.' },
+      { label: 'Modify Order', say: 'Modify Order ✏️\nNeed to change size, design or address? Contact us within 12 hours of ordering and we\'ll do our best to update it before dispatch.' },
+      { label: 'Cancel Order', say: 'Cancel Order ❌\nOrders can be cancelled before dispatch. Message us with your order ID as soon as possible and we\'ll process it.' },
+      { label: 'Order Not Received', say: 'Order Not Received 📭\nSo sorry for the worry! Please share your order ID on WhatsApp and we\'ll track the shipment and resolve it immediately.' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Product Assistance ---------- */
+  product: {
+    reply: 'Product Assistance 💎 What are you looking for?',
+    options: [
+      { label: 'Best Sellers', say: 'Best Sellers 🔥\nTemple Jhumkas (₹749), Kundan Choker Set (₹1,899), Antique Temple Bangles (₹999) and the Rajwada Bridal Set (₹4,999) are flying off the shelves! Check the Bestsellers section on our home page.' },
+      { label: 'New Arrivals', say: 'New Arrivals 🆕\nLook for the "NEW" tag on products — Kundan Earrings, CZ Necklace Set, Meenakari Bangles, Adjustable Stone Ring and more just landed!' },
+      { label: 'Bridal Collection', link: '#/bridal-sets' },
+      { label: 'Daily Wear Collection', say: 'Daily Wear Collection ☀️\nLight, comfortable pieces for everyday — studs, hoops, daily-wear mangalsutras, CZ bracelets and simple anklets. Skin-friendly and anti-tarnish!' },
+      { label: 'Trending Products', say: 'Trending Products 📈\nAD Cocktail Rings, Chandbali Earrings and Layered Coin Necklaces are trending right now. Tap Shop by Category to explore!' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Jewellery Care ---------- */
+  care: {
+    reply: 'Jewellery Care 📏 Choose a topic:',
+    options: [
+      { label: 'Care Instructions', say: 'Care Instructions 🌿\n• Wear jewellery after applying perfume/makeup\n• Wipe gently with a soft dry cloth after use\n• Avoid water, sweat and chemicals' },
+      { label: 'Storage Tips', say: 'Storage Tips 📦\nStore each piece in a dry, airtight pouch (provided) and keep separate to avoid scratches. Keep away from moisture.' },
+      { label: 'Color Protection', say: 'Color Protection 🎨\nOur anti-tarnish plating lasts longer if you avoid perfume, lotion and water contact. Remove jewellery before bathing or swimming.' },
+      { label: 'Warranty Guide', link: '#/warranty' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Payment ---------- */
+  payment: {
+    reply: 'Payment Support 💳 We accept multiple options:',
+    options: [
+      { label: 'UPI Payment', say: 'UPI Payment 📲\nPay instantly via Google Pay, Paytm, PhonePe or any UPI app at checkout — quick and secure.' },
+      { label: 'Credit/Debit Card', say: 'Credit/Debit Card 💳\nAll major Visa, Mastercard and RuPay cards are accepted securely at checkout.' },
+      { label: 'Net Banking', say: 'Net Banking 🏦\nPay directly from your bank account via net banking at checkout.' },
+      { label: 'Cash on Delivery', say: 'Cash on Delivery 💵\nCOD is available on orders up to ₹5,000 — pay when your order arrives.' },
+      { label: 'EMI Options', say: 'EMI Options 📆\nEMI is available on eligible cards for higher-value orders. Look for the EMI option at checkout or ask us on WhatsApp.' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Bridal Expert ---------- */
+  bridal: {
+    reply: 'Bridal Jewellery Expert 👰 Let me guide you:',
+    options: [
+      { label: 'Bridal Sets', link: '#/bridal-sets' },
+      { label: 'Matching Jewellery', say: 'Matching Jewellery 💍\nWe can match your bridal set with coordinated maang tikka, bangles, anklets and a mangalsutra. Tell us your outfit colour on WhatsApp for a personalised combo!' },
+      { label: 'Wedding Collection', say: 'Wedding Collection 💒\nFrom Rajwada and Kundan bridal sets to Polki, Temple and Meenakari styles (₹3,799–₹6,499) — every set covers necklace, earrings, tikka, ring, bangles & nath.' },
+      { label: 'Bridal Recommendations', say: 'Bridal Recommendations ✨\nFor a classic look: Kundan Bridal Set. For South-Indian weddings: Temple Bridal Set. For a grand reception: Designer Bridal Set. Want a personal suggestion? Tap WhatsApp Support!' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Style Assistant ---------- */
+  style: {
+    reply: 'Style Assistant 🎨 What are you styling for?',
+    options: [
+      { label: 'Jewellery for Saree', say: 'Jewellery for Saree 🥻\nA temple or kundan choker with matching jhumkas looks stunning with sarees. Add a maang tikka for festive occasions!' },
+      { label: 'Jewellery for Lehenga', say: 'Jewellery for Lehenga 👗\nGo grand — a layered necklace or rani haar with chandbalis, bangles and a borla tikka completes the lehenga look beautifully.' },
+      { label: 'Jewellery for Office Wear', say: 'Jewellery for Office Wear 💼\nKeep it elegant — pearl studs, a daily-wear mangalsutra and a slim CZ bracelet add polish without being heavy.' },
+      { label: 'Jewellery for Party Wear', say: 'Jewellery for Party Wear 🎉\nMake a statement — AD cocktail rings, drop earrings and a CZ necklace set sparkle under party lights!' },
+      { label: 'Gift Suggestions', say: 'Gift Suggestions 🎁\nGifting? Pearl earrings, a modern mangalsutra, or a charm bracelet are loved by everyone — and our packaging is gift-ready!' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- Contact ---------- */
+  contact: {
+    reply: 'Contact Us 📞 Reach us anytime:',
+    options: [
+      { label: '💬 WhatsApp Support', link: 'https://wa.me/' + WA + '?text=' + encodeURIComponent('Hi Unique & Stylish! I need some help.'), ext: true },
+      { label: '📞 Call Support', link: 'tel:+918904411046', ext: true },
+      { label: '📧 Email Support', link: 'mailto:hello@uniqueandstylish.in', ext: true },
+      { label: 'Business Enquiry', say: 'Business Enquiry 🤝\nFor wholesale, reselling or collaboration, email hello@uniqueandstylish.in or message us on WhatsApp with your requirement — our team will get back to you.' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  },
+
+  /* ---------- FAQ ---------- */
+  faq: {
+    reply: 'Frequently Asked Questions ❓ Tap a question:',
+    options: [
+      { label: 'Product Quality', say: 'Product Quality 💎\nEvery piece is premium gold-plated imitation jewellery with faux kundan, kemp stones, pearls and American diamonds — quality-checked before dispatch.' },
+      { label: 'Anti Tarnish Information', say: 'Anti-Tarnish Info 🛡️\nOur jewellery has an anti-tarnish coating and is nickel-safe & skin friendly. Avoid water/perfume contact and store dry to keep the shine for longer.' },
+      { label: 'Return Process', link: '#/returns-exchanges' },
+      { label: 'Delivery Questions', go: 'shipping' },
+      { label: '⬅ Main Menu', go: 'main' }
+    ]
+  }
+};
+
+// Map quick-chip labels → action
+const CHIP_ACTIONS = {
+  '💍 Shop Earrings': { link: '#/earrings' },
+  '👰 Bridal Collection': { link: '#/bridal-sets' },
+  '🔥 Best Sellers': { node: 'product', say: MENU.product.options[0].say },
+  '🎁 Current Offers': { node: 'offers', say: MENU.offers.options[0].say },
+  '📦 Track Order': { node: 'order', say: MENU.order.options[0].say },
+  '🚚 Shipping Info': { go: 'shipping' },
+  '🔄 Returns Policy': { go: 'returns' },
+  '💳 Payment Options': { go: 'payment' },
+  '📞 Contact Us': { go: 'contact' },
+  '💬 WhatsApp Support': { link: 'https://wa.me/' + WA + '?text=' + encodeURIComponent('Hi Unique & Stylish! I need some help.'), ext: true }
+};
+
+function addMsg(text, who) {
+  const div = document.createElement('div');
+  div.className = 'msg ' + who;
+  div.textContent = text;
+  chatBody.appendChild(div);
+  chatBody.scrollTop = chatBody.scrollHeight;
+}
+
+// Render a set of option buttons {label, go|say|link|ext}
+function addOptions(options) {
+  const wrap = document.createElement('div');
+  wrap.className = 'chips';
+  options.forEach(opt => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'chip';
+    b.textContent = opt.label;
+    b.addEventListener('click', () => {
+      addMsg(opt.label, 'user');
+      if (opt.link) {
+        if (opt.ext) { window.open(opt.link, '_blank'); botReply('Opening that for you… 👍 Anything else?', 'main'); }
+        else { location.hash = opt.link; chatPanel.classList.remove('open'); }
+        return;
+      }
+      if (opt.say) { botReply(opt.say); setTimeout(() => showNode(currentNode || 'main', true), 850); return; }
+      if (opt.go) { showNode(opt.go); return; }
+    });
+    wrap.appendChild(b);
+  });
+  chatBody.appendChild(wrap);
+  chatBody.scrollTop = chatBody.scrollHeight;
+}
+
+// Quick chips under welcome
+function addChips() {
+  const wrap = document.createElement('div');
+  wrap.className = 'chips';
+  quickChips.forEach(label => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'chip';
+    b.textContent = label;
+    b.addEventListener('click', () => {
+      addMsg(label, 'user');
+      const a = CHIP_ACTIONS[label];
+      if (!a) { showNode('main'); return; }
+      if (a.link) {
+        if (a.ext) { window.open(a.link, '_blank'); botReply('Opening that for you… 👍', 'main'); }
+        else { location.hash = a.link; chatPanel.classList.remove('open'); }
+        return;
+      }
+      if (a.say) { botReply(a.say); setTimeout(() => showNode(a.node || 'main', true), 850); return; }
+      if (a.go) { showNode(a.go); return; }
+    });
+    wrap.appendChild(b);
+  });
+  chatBody.appendChild(wrap);
+  chatBody.scrollTop = chatBody.scrollHeight;
+}
+
+let currentNode = 'main';
+
+function botReply(text, thenNode) {
+  const typing = document.createElement('div');
+  typing.className = 'typing';
+  typing.innerHTML = '<span></span><span></span><span></span>';
+  chatBody.appendChild(typing);
+  chatBody.scrollTop = chatBody.scrollHeight;
+  setTimeout(() => {
+    typing.remove();
+    addMsg(text, 'bot');
+    if (thenNode) showNode(thenNode);
+  }, 650);
+}
+
+// Show a menu node (reply + its option buttons)
+function showNode(key, quiet) {
+  const node = MENU[key];
+  if (!node) return;
+  currentNode = key;
+  if (quiet) { addOptions(node.options); return; }
+  const typing = document.createElement('div');
+  typing.className = 'typing';
+  typing.innerHTML = '<span></span><span></span><span></span>';
+  chatBody.appendChild(typing);
+  chatBody.scrollTop = chatBody.scrollHeight;
+  setTimeout(() => {
+    typing.remove();
+    addMsg(node.reply, 'bot');
+    addOptions(node.options);
+  }, 600);
+}
+
+// Free-text → keyword routing to a menu node
+const KEYWORD_NODES = [
+  { keys: ['earring','jhumka','chandbali','stud','hoop'], link: '#/earrings' },
+  { keys: ['necklace','choker','haram','pendant'], link: '#/necklace-sets' },
+  { keys: ['bangle','bracelet','kada'], link: '#/bangles-bracelets' },
+  { keys: ['ring'], link: '#/rings' },
+  { keys: ['mangalsutra'], link: '#/mangalsutra' },
+  { keys: ['anklet','payal','toe'], link: '#/anklets' },
+  { keys: ['tikka','damini','jhoomar','borla','matha'], link: '#/maang-tikka' },
+  { keys: ['bridal','bride','wedding','dulhan'], go: 'bridal' },
+  { keys: ['ship','deliver','delivery'], go: 'shipping' },
+  { keys: ['offer','discount','coupon','code','sale','deal'], go: 'offers' },
+  { keys: ['return','exchange','refund'], go: 'returns' },
+  { keys: ['track','order','cancel','modify'], go: 'order' },
+  { keys: ['care','clean','store','storage','tarnish'], go: 'care' },
+  { keys: ['pay','upi','gpay','paytm','card','cod','emi','net banking'], go: 'payment' },
+  { keys: ['saree','lehenga','office','party','gift','style','match'], go: 'style' },
+  { keys: ['contact','phone','call','whatsapp','email'], go: 'contact' },
+  { keys: ['best seller','bestseller','new arrival','trending','daily wear'], go: 'product' },
+  { keys: ['faq','quality','question'], go: 'faq' },
+  { keys: ['hi','hello','hey','namaste','menu','help','hii'], go: 'main' }
+];
+
+function handleUser(text) {
+  addMsg(text, 'user');
+  const q = text.toLowerCase();
+  for (const k of KEYWORD_NODES) {
+    if (k.keys.some(w => q.includes(w))) {
+      if (k.link) { botReply('Sure! Opening that collection for you ✨'); location.hash = k.link; setTimeout(()=>chatPanel.classList.remove('open'),400); return; }
+      showNode(k.go); return;
+    }
+  }
+  botReply("I'm not sure about that one 😊 — here's the main menu so you can pick what you need:", 'main');
+}
+
+function openChat() {
+  chatPanel.classList.add('open');
+  if (!chatStarted) {
+    chatStarted = true;
+    botReply("Namaste! 🙏 Welcome to Unique & Stylish.\nI'm your personal jewellery assistant. I can help you with:\n💍 Finding the perfect jewellery\n📦 Tracking your order\n🚚 Shipping information\n🎁 Latest offers & discounts\n🔄 Returns & exchanges\n👰 Bridal recommendations\n📞 Customer support\n\nChoose an option below or type your question.");
+    setTimeout(addChips, 900);
+    setTimeout(() => showNode('main', true), 1500);
+  }
+  chatText.focus();
+}
+
+chatFab.addEventListener('click', () => {
+  chatPanel.classList.contains('open') ? chatPanel.classList.remove('open') : openChat();
+});
+chatClose.addEventListener('click', () => chatPanel.classList.remove('open'));
+chatForm.addEventListener('submit', e => {
+  e.preventDefault();
+  const text = chatText.value.trim();
+  if (!text) return;
+  chatText.value = '';
+  handleUser(text);
+});
+
+/* ==========================================================
+   3D ANIMATIONS — Three.js hero jhumka, card tilt, reveals
+   ========================================================== */
+const REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- 1. 3D rotating golden jhumka (hero) ---------- */
+function initHero3D() {
+  const container = document.getElementById('hero3d');
+  const fallback = document.getElementById('heroFallback');
+  const showFallback = () => { if (container) container.style.display = 'none'; fallback.style.display = 'flex'; };
+  if (!container || typeof THREE === 'undefined') return showFallback();
+
+  let renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  } catch (e) { return showFallback(); }
+
+  const W = container.clientWidth || 500, H = container.clientHeight || 400;
+  renderer.setSize(W, H);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  container.appendChild(renderer.domElement);
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(45, W / H, 0.1, 100);
+  camera.position.set(0, 0.4, 7.2);
+
+  /* Lights — warm jewellery-shop glow */
+  scene.add(new THREE.AmbientLight(0xfff2d8, 0.55));
+  const key = new THREE.DirectionalLight(0xffe9b8, 1.25); key.position.set(4, 6, 5); scene.add(key);
+  const rimL = new THREE.PointLight(0xc9a24b, 1.6, 30); rimL.position.set(-5, 2, 3); scene.add(rimL);
+  const warm = new THREE.PointLight(0xff9a6b, 0.5, 30); warm.position.set(3, -3, 4); scene.add(warm);
+
+  /* Materials */
+  const gold     = new THREE.MeshStandardMaterial({ color: 0xd4af5e, metalness: 0.95, roughness: 0.22 });
+  const goldDark = new THREE.MeshStandardMaterial({ color: 0xa8842f, metalness: 0.95, roughness: 0.32 });
+  const pearlMat = new THREE.MeshStandardMaterial({ color: 0xfdf6e8, metalness: 0.25, roughness: 0.35 });
+  const rubyMat  = new THREE.MeshStandardMaterial({ color: 0x9b1030, metalness: 0.45, roughness: 0.12 });
+  const emerMat  = new THREE.MeshStandardMaterial({ color: 0x14705a, metalness: 0.5,  roughness: 0.1 });
+
+  /* Build the jhumka */
+  const jh = new THREE.Group();
+  const hoop = new THREE.Mesh(new THREE.TorusGeometry(0.38, 0.07, 16, 40), gold);
+  hoop.position.y = 2.55; jh.add(hoop);
+
+  const stud = new THREE.Mesh(new THREE.SphereGeometry(0.34, 24, 24), gold);
+  stud.position.y = 1.88; jh.add(stud);
+  const studGem = new THREE.Mesh(new THREE.SphereGeometry(0.15, 16, 16), rubyMat);
+  studGem.position.set(0, 1.88, 0.28); jh.add(studGem);
+
+  const link = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 0.55, 12), goldDark);
+  link.position.y = 1.4; jh.add(link);
+
+  /* Bell dome (hemisphere) */
+  const dome = new THREE.Mesh(new THREE.SphereGeometry(1.15, 40, 24, 0, Math.PI * 2, 0, Math.PI / 2), gold);
+  dome.position.y = 0.05; jh.add(dome);
+
+  const band = new THREE.Mesh(new THREE.TorusGeometry(1.15, 0.05, 12, 48), goldDark);
+  band.rotation.x = Math.PI / 2; band.position.y = 0.06; jh.add(band);
+  const band2 = new THREE.Mesh(new THREE.TorusGeometry(0.74, 0.045, 12, 48), goldDark);
+  band2.rotation.x = Math.PI / 2; band2.position.y = 0.82; jh.add(band2);
+
+  /* Gemstones around the dome */
+  for (let i = 0; i < 5; i++) {
+    const a = (i / 5) * Math.PI * 2;
+    const g = new THREE.Mesh(new THREE.SphereGeometry(0.14, 14, 14), i % 2 ? rubyMat : emerMat);
+    g.position.set(Math.cos(a) * 0.98, 0.55, Math.sin(a) * 0.98);
+    jh.add(g);
+  }
+
+  /* Dangling pearl chains */
+  for (let i = 0; i < 10; i++) {
+    const a = (i / 10) * Math.PI * 2;
+    const x = Math.cos(a) * 1.1, z = Math.sin(a) * 1.1;
+    const chain = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, 0.4, 8), goldDark);
+    chain.position.set(x, -0.18, z); jh.add(chain);
+    const pearl = new THREE.Mesh(new THREE.SphereGeometry(0.12, 14, 14), pearlMat);
+    pearl.position.set(x, -0.46, z); jh.add(pearl);
+  }
+  jh.position.y = -0.35;
+  scene.add(jh);
+
+  /* Floating gold sparkles */
+  const COUNT = 130, positions = new Float32Array(COUNT * 3);
+  for (let i = 0; i < COUNT; i++) {
+    positions[i * 3]     = (Math.random() - 0.5) * 9;
+    positions[i * 3 + 1] = (Math.random() - 0.5) * 7;
+    positions[i * 3 + 2] = (Math.random() - 0.5) * 5;
+  }
+  const pGeo = new THREE.BufferGeometry();
+  pGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  const sparkles = new THREE.Points(pGeo, new THREE.PointsMaterial({ color: 0xe9d398, size: 0.055, transparent: true, opacity: 0.85 }));
+  scene.add(sparkles);
+
+  /* Mouse / touch parallax + drag to spin */
+  let mx = 0, my = 0, dragging = false, lastX = 0, spinBoost = 0;
+  window.addEventListener('mousemove', e => {
+    mx = e.clientX / window.innerWidth - 0.5;
+    my = e.clientY / window.innerHeight - 0.5;
+    if (dragging) { spinBoost = (e.clientX - lastX) * 0.004; lastX = e.clientX; }
+  });
+  container.addEventListener('mousedown', e => { dragging = true; lastX = e.clientX; container.style.cursor = 'grabbing'; });
+  window.addEventListener('mouseup', () => { dragging = false; container.style.cursor = 'grab'; });
+  container.addEventListener('touchstart', e => { dragging = true; lastX = e.touches[0].clientX; }, { passive: true });
+  container.addEventListener('touchmove', e => { if (dragging) { spinBoost = (e.touches[0].clientX - lastX) * 0.004; lastX = e.touches[0].clientX; } }, { passive: true });
+  window.addEventListener('touchend', () => { dragging = false; });
+
+  let t = 0;
+  function tick() {
+    t += 0.01;
+    jh.rotation.y += 0.008 + spinBoost;
+    spinBoost *= 0.95;                                   // momentum decay
+    jh.rotation.x = my * 0.35 + Math.sin(t) * 0.05;
+    jh.rotation.z = mx * 0.18;
+    jh.position.y = -0.35 + Math.sin(t * 1.4) * 0.12;    // gentle float
+    sparkles.rotation.y += 0.0012;
+    sparkles.rotation.x = Math.sin(t * 0.3) * 0.04;
+    renderer.render(scene, camera);
+    if (!REDUCED_MOTION) requestAnimationFrame(tick);
+  }
+  tick();
+
+  window.addEventListener('resize', () => {
+    const w = container.clientWidth, h = container.clientHeight;
+    if (!w || !h) return;
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+    renderer.setSize(w, h);
+  });
+}
+
+/* ---------- 2. 3D tilt + light shine on cards ---------- */
+function enable3DTilt() {
+  if (REDUCED_MOTION || !window.matchMedia('(pointer:fine)').matches) return;
+  let current = null;
+  document.addEventListener('mousemove', e => {
+    const card = e.target.closest('.prod-card, .cat-card, .testi');
+    if (current && current !== card) {
+      current.classList.remove('tilting');
+      current.style.transform = '';
+      current = null;
+    }
+    if (!card) return;
+    current = card;
+    const r = card.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width;
+    const py = (e.clientY - r.top) / r.height;
+    card.classList.add('tilting');
+    card.style.transform =
+      `perspective(800px) rotateX(${((0.5 - py) * 10).toFixed(2)}deg) rotateY(${((px - 0.5) * 12).toFixed(2)}deg) translateY(-6px) scale(1.02)`;
+    card.style.setProperty('--mx', (px * 100).toFixed(1) + '%');
+    card.style.setProperty('--my', (py * 100).toFixed(1) + '%');
+  });
+}
+
+/* ---------- 3. 3D scroll-reveal for cards ---------- */
+const revealObserver = ('IntersectionObserver' in window && !REDUCED_MOTION)
+  ? new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting) { en.target.classList.add('in'); revealObserver.unobserve(en.target); }
+      });
+    }, { threshold: 0.12 })
+  : null;
+
+function applyReveals(root) {
+  if (!revealObserver) return;
+  (root || document).querySelectorAll('.prod-card, .cat-card, .testi, .p-item').forEach((el, i) => {
+    if (el.classList.contains('in')) return;
+    el.classList.add('reveal');
+    el.style.transitionDelay = (i % 4) * 0.08 + 's';
+    revealObserver.observe(el);
+  });
+}
+
+/* ==========================================================
+   INIT
+   ========================================================== */
+renderHomeBlocks();
+route();
+initHero3D();
+enable3DTilt();
+applyReveals();
+</script>
+</body>
+</html>
